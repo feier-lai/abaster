@@ -1,0 +1,18 @@
+.build-your-own {
+  text-align: center;
+  background-color: $color__light-gray;
+  color: $color__background-header;
+}
+
+.build-your-own > h2 {
+  padding-bottom: 2.5em;
+  margin-bottom: 0;
+}
+
+.build-your-own > h3 {
+  padding-top: 2.5em;
+}
+
+.image-upload > div > form > img {
+  padding: 1em;
+}

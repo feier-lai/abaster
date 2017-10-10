@@ -1,0 +1,16 @@
+
+
+/* ----------- About us ------- */
+#about_us {
+    background-color: #FED3C6;
+}
+
+/* ----------- Let's keep in touch ------- */
+#keep_in_touch input {
+    background-color: #FED3C6;
+}
+
+#keep_in_touch .col-md-6:first-child,
+#keep_in_touch .col-md-6:nth-child(2) {
+    background-color: #FED3C6;
+}

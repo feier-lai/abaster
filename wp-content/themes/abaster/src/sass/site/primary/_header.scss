@@ -1,0 +1,47 @@
+#masthead {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#masthead > div {
+  display: flex;
+  padding-right: 0;
+  padding-left: 6em;
+}
+
+#masthead > div > div:first-child {
+  width: 20%;
+}
+
+#masthead > div > div:nth-child(2) {
+    width: 66%;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+}
+
+#masthead > div > div:nth-child(3) {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+}
+
+#masthead > div > div:nth-child(2) > nav {
+    padding-left: 5%;
+}
+
+#primary-menu li a {
+  outline-color: $color__background-header;
+}

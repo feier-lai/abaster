@@ -1,0 +1,40 @@
+a {
+	color: $color__link;
+	text-transform: uppercase;
+
+	&:visited {
+		color: $color__link-visited;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__link-hover;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
+
+
+.main-button{
+	color: white;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background-color: black;
+   	padding: 0.5em 1em 0.5em 1em;
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+    border-radius: 0;
+    border: 0px;
+}
+
+.small-button{
+	@extend .main-button;
+	font-size: 1em;
+}
