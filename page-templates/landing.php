@@ -1,4 +1,7 @@
+<?php 
+
 /* Template Name: Landing */
-<?php get_header(); ?>
+
+get_header(); ?>
 your page content here 
-<? php get_footer();?>
+<?php get_footer();?>
