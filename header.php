@@ -24,19 +24,40 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyseventeen' ); ?></a>
-
+	
 	<header id="masthead" class="site-header" role="banner">
 
-		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
 
-		<?php if ( has_nav_menu( 'top' ) ) : ?>
-			<div class="navigation-top">
-				<div class="wrap">
-					<?php get_template_part( 'template-parts/navigation/navigation', 'top' ); ?>
-				</div><!-- .wrap -->
-			</div><!-- .navigation-top -->
-		<?php endif; ?>
+		<div class="header-container">
+			<div class="row header-content">
+				<div class="col-md-2">
+					<div class="branding-container">logo</div>
+				</div>
+				<div class="col-md-10">
+					<nav id="main-navigation">
+						<!--<ul>
+							<li><a href="#">HOME</a></li>
+							<li><a href="#">WHAT WE DO</a></li>
+							<li><a href="#">WHO WE ARE</a></li>
+							<li><a href="#">INDUSTRIES</a></li>
+							<li><a href="#">NEWS</a></li>
+							<li><a href="#">CONTACT</a></li>
+							<li><a href="#">CAREERS</a></li>
+						</ul>-->
+
+							<?php wp_nav_menu( array(
+								'theme_location' => 'top',
+								'container_id' => 'main-navigation',
+								'menu_id'        => 'top-menu',
+							) ); ?>
+					</nav>
+				</div>
+			</div>
+			
+		</div>
+
+		<?php //get_template_part( 'template-parts/header/header', 'image' ); ?>
+
 
 	</header><!-- #masthead -->
 
