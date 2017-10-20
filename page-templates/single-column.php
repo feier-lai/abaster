@@ -23,6 +23,14 @@ if( is_page('industries') || is_page('abaster-industries') ){
 
 }
 
+if ( is_page('careers') ){
+	get_template_part('template-parts/page/content-careers');
+}
+
+if ( is_page('who-we-are') || is_page('about') || is_page('about-us')){
+	get_template_part('template-parts/page/content-about');
+}
+
 ?>
 
 
