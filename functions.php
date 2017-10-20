@@ -442,6 +442,10 @@ function twentyseventeen_scripts() {
 	wp_enqueue_style( 'twentyseventeen-ie8', get_theme_file_uri( '/assets/css/ie8.css' ), array( 'twentyseventeen-style' ), '1.0' );
 	wp_style_add_data( 'twentyseventeen-ie8', 'conditional', 'lt IE 9' );
 
+	// Load jQuery
+	wp_enqueue_script( 'jquery','https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js', array('jquery'),
+	true );
+
 	// Load the html5 shiv.
 	wp_enqueue_script( 'html5', get_theme_file_uri( '/assets/js/html5.js' ), array(), '3.7.3' );
 	wp_script_add_data( 'html5', 'conditional', 'lt IE 9' );
