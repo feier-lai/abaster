@@ -28,7 +28,7 @@ if ( is_page('careers') ){
 }
 
 if ( is_page('who-we-are') || is_page('about') || is_page('about-us')){
-	get_template_part('template-parts/page/content-who-we-are');
+	get_template_part('template-parts/page/content-about');
 }
 
 ?>
