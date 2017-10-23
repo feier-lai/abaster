@@ -3,7 +3,7 @@ Theme Name: Abaster
 Theme URI: https://abasterconsulting.com
 Author: Abaster Consulting
 Author URI: https://abasterconsulting.com
-Description: 
+Description:
 Version: 1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -51,7 +51,7 @@ nav > ul {
   text-transform: uppercase;
 }
 
-#main-navigation a, 
+#main-navigation a,
 #main-navigation a:visited
 {
   color: #FFF;
@@ -121,12 +121,22 @@ footer{
 	height: 20vh;
 }
 #Support{
+  /*background-image: url("/assets/images/businessImage.jpg");*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #FFF;
   color: #000;
 }
+.SupportContainer{
+  width:70vw;
+  margin-left: 15vw;
+}
 #LearnMore{
+  margin-top: 3vh;
   background-color: #161B3F;
   color: #FFF;
+  padding: 0.7em;
 }
 #OurClients{
   background-color: #FFF;
@@ -150,7 +160,10 @@ footer{
   height: auto;
   margin-bottom: 5em;
 }
-
+.NewsImage{
+  height: 159px;
+  margin: auto;
+}
 /*industries*/
 
 #industries-page .jumbotron{
@@ -244,13 +257,13 @@ footer{
 }
 
 @media screen and (max-width: 846px){
-    
+
     .service-ul{
         margin-left: 5%;
         margin-top: 2%;
         width: 28%;
     }
-    
+
 }
   /*media query for screens under 769px*/
 @media screen and (max-width: 768px){
@@ -340,7 +353,7 @@ h3{
 }
 
 .blue{
-    background-color: #1A6191; 
+    background-color: #1A6191;
 }
 
 .white{
@@ -383,7 +396,7 @@ button > a:hover{
 }
 
 h4{
-    color:#1A6191; 
+    color:#1A6191;
     font-size: 1.3em;
 }
 

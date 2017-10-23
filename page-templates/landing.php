@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /* Template Name: Landing */
 
@@ -16,7 +16,7 @@ get_header(); ?>
   </div>
 
 </div>
- 
+
 <div class="container-fluid landing-container-0top text-center" id="WhatWeDo">
 
   <div class="row landing-blocks">
@@ -67,10 +67,10 @@ get_header(); ?>
   </div>
 </div>
 
-<div class="container landing-container text-center" id="Support">
+<div class="container-fluid text-center" id="Support" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/businessImage.jpg' ?>');">
 
   <div class="row landing-blocks">
-    <div class="col-md-12">
+    <div class="col-md-12 SupportContainer">
       <h1>Support</h1>
       <p>
       Our support system is characterized with excellent customer service, brilliant performance and on-time service delivery.<br/>
@@ -105,9 +105,31 @@ get_header(); ?>
     <div class="col-md-12"><h1>NEWS</h1></div>
   </div>
   <div class="row landing-blocks">
-    <div class="col-md-4">pic1</div>
-    <div class="col-md-4">pic2</div>
-    <div class="col-md-4">pic3</div>
+
+    <?php
+
+    $args = array(
+      type=>'post',
+      posts_per_page=>'3',
+      category_name=>'News'
+    );
+
+    $query = new WP_Query($args);
+
+    if ($query->have_posts()):
+      while($query->have_posts()):
+        $query->the_post();
+
+    ?>
+
+    <div class="col-md-4">
+      <img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>" class="NewsImage">
+      <p><?php echo the_title(); ?></p>
+      <p><?php echo the_content(); ?></p>
+    </div>
+
+<?php endwhile;endif; wp_reset_postdata();?>
+
   </div>
 
 </div>
