@@ -1,8 +1,7 @@
-
-    <div class="jumbotron container-fluid careers-cont">
+<div class="jumbotron container-fluid ">
         <h1>careers</h1>
     </div>
-    <div class="container-fluid text-center text-muted dark top careers-cont">
+    <div class="container-fluid text-center text-muted dark top careers-cont about">
         <h3 class="white">why abaster</h3>
         <p class="white">The complexity of running on multiple systems and technicalities that surrounds the implementation across various
             departments and organizations have made system integration a critical part of information technology and application
@@ -15,7 +14,7 @@
     <div class="container-fluid text-center blue">
         <h3 class="white">available positions</h3>
     </div>
-    <div class="container-fluid careers-cont job">
+    <div class="container-fluid job">
         <div class="row">
             <div class="career col-md-6">
                 <h4 type="button" data-toggle="collapse" data-target="#description1">SAP IS Banking Consultants</h4>
@@ -27,7 +26,7 @@
             <button class="btn col-md-1 apply"><a target="_blanck" href="https://www.playcodemonkey.com">Apply</a></button>
         </div>
     </div>
-    <div class="container-fluid careers-cont job">
+    <div class="container-fluid job">
         <div class="row">
             <div class="career col-md-6">
                 <h4 type="button" data-toggle="collapse" data-target="#description2">SAP FICO Consultants</h4>
@@ -39,7 +38,7 @@
             <button class="btn col-md-1 apply"><a target="_blanck" href="https://www.playcodemonkey.com">Apply</a></button>
         </div>
     </div>
-    <div class="container-fluid careers-cont job">
+    <div class="container-fluid job">
         <div class="row">
             <div class="career col-md-6">
                 <h4 type="button" data-toggle="collapse" data-target="#description3">SAP HR Consultants</h4>
@@ -51,7 +50,7 @@
             <button class="btn col-md-1 apply"><a target="_blanck" href="https://www.playcodemonkey.com">Apply</a></button>
         </div>
     </div>
-    <div class="container-fluid careers-cont job">
+    <div class="container-fluid job">
         <div class="row">
             <div class="career col-md-6">
                 <h4 type="button" data-toggle="collapse" data-target="#description4">SAP Project Managers</h4>
@@ -63,7 +62,7 @@
             <button class="btn col-md-1 apply"><a target="_blanck" href="https://www.playcodemonkey.com">Apply</a></button>
         </div>
     </div>
-    <div class="container-fluid careers-cont job">
+    <div class="container-fluid job">
         <div class="row">
             <div class="career col-md-6">
                 <h4 type="button" data-toggle="collapse" data-target="#description5">Business Process Consultants</h4>
@@ -75,7 +74,7 @@
             <button class="btn col-md-1 apply"><a target="_blanck" href="https://www.playcodemonkey.com">Apply</a></button>
         </div>
     </div>
-    <div class="container-fluid careers-cont job">
+    <div class="container-fluid job">
         <div class="row">
             <div class="career col-md-6">
                 <h4 type="button" data-toggle="collapse" data-target="#description6">SAP Trainers</h4>
