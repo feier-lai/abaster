@@ -18,25 +18,24 @@
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="wrap">
-				<?php
-				get_template_part( 'template-parts/footer/footer', 'widgets' );
-
-				if ( has_nav_menu( 'social' ) ) : ?>
-					<nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Social Links Menu', 'twentyseventeen' ); ?>">
-						<?php
-							wp_nav_menu( array(
-								'theme_location' => 'social',
-								'menu_class'     => 'social-links-menu',
-								'depth'          => 1,
-								'link_before'    => '<span class="screen-reader-text">',
-								'link_after'     => '</span>' . twentyseventeen_get_svg( array( 'icon' => 'chain' ) ),
-							) );
-						?>
-					</nav><!-- .social-navigation -->
-				<?php endif;
-
-				get_template_part( 'template-parts/footer/site', 'info' );
-				?>
+				<div class="container">
+				    <div class="row">
+				      <div class="col-md-12"><h1 id="ContactUs">CONTACT US</h1></div>
+				    </div>
+				    <div class="row">
+				      <div class="col-md-2" id="PrivacyPolicy">PRIVACY POLICY</div>
+				      <div class="col-md-3" id="Careers">CAREERS</div>
+				    </div>
+				    <div class="row" id="EmailRow">
+				      <div class="col-md-12">EMAIL:XXX@XXX.COM</div>
+				    </div>
+				    <div class="row" id="PhoneRow">
+				      <div class="col-md-12">PHONE:XXX-XXX-XXX</div>
+				    </div>
+				    <div class="row" id="CopyrightRow">
+				      <div class="col-md-12">copyright 2017, Abaster Consulting</div>
+				    </div>
+				</div>
 			</div><!-- .wrap -->
 		</footer><!-- #colophon -->
 	</div><!-- .site-content-contain -->
