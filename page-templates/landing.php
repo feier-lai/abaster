@@ -5,13 +5,13 @@
 get_header(); ?>
 
 
-<div class="container-fluid" id="TopSection">
+<div class="container-fluid padding0" id="TopSection">
 
   <div class="row landing-blocks padding0">
-    <div class="owl-carousel padding0" id="top-slider">
-      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/businessImage.jpg' ?>');">A</div>
-      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/businessImage.jpg' ?>');">B</div>
-      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/businessImage.jpg' ?>');">C</div>
+    <div class="owl-carousel" id="top-slider">
+      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/businessImage.jpg' ?>');"></div>
+      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/businessImage.jpg' ?>');"></div>
+      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/businessImage.jpg' ?>');"></div>
     </div>
   </div>
 
