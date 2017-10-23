@@ -5,15 +5,19 @@
 get_header(); ?>
 
 
-<div class="container-fluid" id="TopSection" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/businessImage.jpg' ?>');">
+<div class="container-fluid" id="TopSection">
 
-  <div class="row landing-blocks">
-    <div class="col-md-8 pull-right">test1</div>
+  <div class="row landing-blocks padding0">
+    <div class="owl-carousel padding0" id="top-slider">
+      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/businessImage.jpg' ?>');">A</div>
+      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/businessImage.jpg' ?>');">B</div>
+      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/businessImage.jpg' ?>');">C</div>
+    </div>
   </div>
 
 </div>
-
-<div class="container-fluid landing-container-0top" id="WhatWeDo">
+ 
+<div class="container-fluid landing-container-0top text-center" id="WhatWeDo">
 
   <div class="row landing-blocks">
     <div class="col-md-12"><h1>WHAT WE DO</h1></div>
@@ -31,7 +35,7 @@ get_header(); ?>
 
 </div>
 
-<div class="container landing-container" id="Industries">
+<div class="container landing-container text-center" id="Industries">
 
   <div class="row landing-blocks">
     <div class="col-md-12"><h1>INDUSTRIES</h1></div>
@@ -63,7 +67,7 @@ get_header(); ?>
   </div>
 </div>
 
-<div class="container landing-container" id="Support">
+<div class="container landing-container text-center" id="Support">
 
   <div class="row landing-blocks">
     <div class="col-md-12">
@@ -79,28 +83,23 @@ get_header(); ?>
 
 </div>
 
-<div class="container landing-container" id="OurClients">
+<div class="container landing-container text-center" id="OurClients">
 
   <div clas="row landing-blocks">
     <div class="col-md-12"><h1>OUR CLIENTS</h1></div>
   </div>
-  <div class="row">
-    <div class="col-md-7 col-centered">
-      <div class="row landing-blocks">
-        <div class="col-md-1 OurClientsTiles">test1</div>
-        <div class="col-md-1 OurClientsTiles">test2</div>
-        <div class="col-md-1 OurClientsTiles">test3</div>
-        <div class="col-md-1 OurClientsTiles">test4</div>
-        <div class="col-md-1 OurClientsTiles">test5</div>
-        <div class="col-md-1 OurClientsTiles">test6</div>
-        <div class="col-md-1 OurClientsTiles">test7</div>
-      </div>
-    </div>
+  <div class="row landing-blocks">
+    <div class="col-md-1 OurClientsTiles">test1</div>
+    <div class="col-md-1 OurClientsTiles">test2</div>
+    <div class="col-md-1 OurClientsTiles">test3</div>
+    <div class="col-md-1 OurClientsTiles">test4</div>
+    <div class="col-md-1 OurClientsTiles">test5</div>
+    <div class="col-md-1 OurClientsTiles">test6</div>
+    <div class="col-md-1 OurClientsTiles">test7</div>
   </div>
-
 </div>
 
-<div class="container landing-container" id="News">
+<div class="container landing-container text-center" id="News">
 
   <div class="row landing-blocks">
     <div class="col-md-12"><h1>NEWS</h1></div>

@@ -424,6 +424,12 @@ function twentyseventeen_scripts() {
 	//wordpress twentyseventeen styles
 	//wp_enqueue_style( 'twentyseventeen-style', get_template_directory_uri(). '/twentyseventeen-style.css' );
 
+
+  	// Owl Carousel
+  	wp_enqueue_style( 'Abaster-OWL-theme', get_template_directory_uri(). '/assets/css/owlcarousel/owl.theme.default.min.css' );
+
+	wp_enqueue_style( 'Abaster-OWL', get_template_directory_uri(). '/assets/css/owlcarousel/owl.carousel.min.css' );
+
 	// Theme stylesheet.
 	wp_enqueue_style( 'Abaster', get_template_directory_uri(). '/style.css' );
 
@@ -468,6 +474,13 @@ function twentyseventeen_scripts() {
 	wp_enqueue_script( 'twentyseventeen-global', get_theme_file_uri( '/assets/js/global.js' ), array( 'jquery' ), '1.0', true );
 
 	wp_enqueue_script( 'jquery-scrollto', get_theme_file_uri( '/assets/js/jquery.scrollTo.js' ), array( 'jquery' ), '2.1.2', true );
+
+
+	// owl carousel
+	  wp_enqueue_script( 'js-owl-carousel', get_template_directory_uri() . '/assets/js/owlcarousel/owl.carousel.min.js', array('jquery') );
+
+	  wp_enqueue_script( 'js-owl-carousel-settings', get_template_directory_uri() . '/assets/js/owlcarousel/owl.carousel.settings.js', array('jquery') );
+
 
 	//script
 	wp_enqueue_script( 'scripts', get_theme_file_uri('assets/js/script.js') , array('jquery'));

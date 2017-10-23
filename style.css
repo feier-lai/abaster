@@ -30,6 +30,10 @@ nav > ul {
   list-style: none;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .header-container{
   height: 20vh;
   padding-top:8vh;
@@ -72,6 +76,7 @@ footer{
 
 .landing-container{
 	margin: 5vh auto;
+  text-align:center;
 }
 
 .landing-container-0top{
@@ -89,6 +94,13 @@ footer{
   background-position: center;
   background-size: cover;
 }
+
+.slider-content{
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #WhatWeDo{
   background-color: #1A6191;
   color: #FFF;
@@ -318,10 +330,10 @@ h3{
     margin: auto;
 }
 
-p{
+/*p{
     width: 70%;
     line-height: 175%
-}
+}*/
 
 .dark > h3{
     margin: 1vh 0 4vh 0;
