@@ -31,7 +31,9 @@
 					</div>
 				</div>
 				<div class="col-md-7 content-padding industries-tile-text">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <p>Our consulting team has worked with major energy organizations and providers to implement solutions that cater to their business needs.</p>
+          <p>The implementation of SAP IS Solutions Oil and Gas has been one of the tremendously successful projects our team has completed for major organizations across North America.</p>
+          <p>We are all about implementing the solution that improves operational efficiency and provides real business growth.</p>
 				</div>
 			</div>
 		</div>
@@ -47,7 +49,8 @@
 					</div>
 				</div>
 				<div class="col-md-7 content-padding industries-tile-text">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<p>We provide highly skilled and talented Consultants who undrestand telecomminication processes.</p>
+          <p>Our EPR Telecommunication team has worked with major organizations across the globe and has acquired the experience to implement first class application for your organization.</p>
 				</div>
 			</div>
 		</div>
@@ -63,7 +66,9 @@
 					</div>
 				</div>
 				<div class="col-md-7 content-padding industries-tile-text">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<p>Abaster team of Finance Application has implemented major EPR products like SAP for Banks, Loans and deposit Institutions, and other financial institutions.</p>
+          <p>We are well experienced in all major enterprise resource applications to support your businness.</p>
+          <p>We create and upgrade formation of projects, whether currently existing applications or brand-new, we are confident in the ability of our team to deliver as promised.</p>
 				</div>
 			</div>
 		</div>
@@ -79,7 +84,10 @@
 					</div>
 				</div>
 				<div class="col-md-7 content-padding industries-tile-text">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<p>We provide best-in-class manufacturing team that undrestands the manufacturing processes and chains of production.</p>
+          <p>Our team is known for excellent business process design and implementation.</p>
+          <p>We are proud to have a team that has worked with major manufacturing organizations in implementing and configuring an application that integrates all manufacturing stages.</p>
+          <p>With the Abaster team on your side you are well positioned for a successful application deployment.</p>
 				</div>
 			</div>
 		</div>
@@ -95,7 +103,10 @@
 					</div>
 				</div>
 				<div class="col-md-7 content-padding industries-tile-text">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<p>Our training team provides the best onsite training.</p>
+          <p>We provide corporate and formal training,all tailores to our customers' needs.</p>
+          <p>We are very proud of our outstanding acheivement in the area of training. So far, Abaster Trainers have trained hundreds of users on SAP, Oracle and Project Management.</p>
+          <p>We are cost effective and beter equipped to conduct training anywhere in the world.</p>
 				</div>
 			</div>
 		</div>
@@ -111,7 +122,8 @@
 					</div>
 				</div>
 				<div class="col-md-7 content-padding industries-tile-text">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<p>Abaster's team is experienced in implementing EPR Applications for major Aerospace companies in North America.</p>
+          <p>We collaboratewith our clients to review the process, identify gaps and implement an application that best suited their business. Increasing bottom line and efficiency is our main goal.</p>
 				</div>
 			</div>
 		</div>
@@ -127,7 +139,8 @@
 					</div>
 				</div>
 				<div class="col-md-7 content-padding industries-tile-text">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<p>We provide advisory and IT implementation services for our public service clients. Abaster has worked with every arm of goverment in both advisory and system integration capacities.</p>
+          <p>We understand the level of Security required in implementing government projects; and as a firmthat has acted in that capacity in the past, we are able to comply with all appropriciate requirements while promoting excellent advice and system integration. We deliver project on-time and on- budget.</p>
 				</div>
 			</div>
 		</div>
@@ -135,4 +148,3 @@
 	</div>
 
 </div>
-
