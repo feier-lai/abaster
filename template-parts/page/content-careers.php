@@ -1,9 +1,9 @@
 <div class="jumbotron container-fluid ">
         <h1>careers</h1>
     </div>
-    <div class="container-fluid text-center text-muted dark top careers-cont about">
+    <div class="container-fluid text-center dark careers-cont about">
         <h3 class="white">why abaster</h3>
-        <p class="white">The complexity of running on multiple systems and technicalities that surrounds the implementation across various
+        <p class="white contentMargin">The complexity of running on multiple systems and technicalities that surrounds the implementation across various
             departments and organizations have made system integration a critical part of information technology and application
             deployment. <br/><br/> With well integrated ERP applications like SAP, Oracle, and others, it is important that
             organizations involve experienced system integrators. Abaster’s team prides itself as a first class system integrator

@@ -4,7 +4,7 @@
         <h1>industries</h1>
     </div>
 
-    <div class="section-nav">
+    <div class="section-nav blue">
 		<nav class="page-navigation">
 			<ul>
 				<li><a href="#oil-and-gas">OIL AND GAS</a></li>
@@ -27,7 +27,7 @@
 						<div class="col-md-12 padding0"><h2 class="industries-heading">OIL AND GAS</h2></div>
 					</div>
 					<div class="row">
-						<div class="col-md-12 picture-container">PIC</div>
+						<div class="col-md-12 picture-container"></div>
 					</div>
 				</div>
 				<div class="col-md-7 content-padding industries-tile-text">
@@ -43,7 +43,7 @@
 						<div class="col-md-12 padding0"><h2 class="industries-heading">TELECOMMUNICATION</h2></div>
 					</div>
 					<div class="row">
-						<div class="col-md-12 picture-container">PIC</div>
+						<div class="col-md-12 picture-container"></div>
 					</div>
 				</div>
 				<div class="col-md-7 content-padding industries-tile-text">
@@ -59,7 +59,7 @@
 						<div class="col-md-12 padding0"><h2 class="industries-heading">FINANCIAL INSTITUTIONS</h2></div>
 					</div>
 					<div class="row">
-						<div class="col-md-12 picture-container">PIC</div>
+						<div class="col-md-12 picture-container"></div>
 					</div>
 				</div>
 				<div class="col-md-7 content-padding industries-tile-text">
@@ -75,7 +75,7 @@
 						<div class="col-md-12 padding0"><h2 class="industries-heading">MANUFACTURING</h2></div>
 					</div>
 					<div class="row">
-						<div class="col-md-12 picture-container">PIC</div>
+						<div class="col-md-12 picture-container"></div>
 					</div>
 				</div>
 				<div class="col-md-7 content-padding industries-tile-text">
@@ -91,7 +91,7 @@
 						<div class="col-md-12 padding0"><h2 class="industries-heading">EDUCATION</h2></div>
 					</div>
 					<div class="row">
-						<div class="col-md-12 picture-container">PIC</div>
+						<div class="col-md-12 picture-container"></div>
 					</div>
 				</div>
 				<div class="col-md-7 content-padding industries-tile-text">
@@ -107,7 +107,7 @@
 						<div class="col-md-12 padding0"><h2 class="industries-heading">AEROSPACE</h2></div>
 					</div>
 					<div class="row">
-						<div class="col-md-12 picture-container">PIC</div>
+						<div class="col-md-12 picture-container"></div>
 					</div>
 				</div>
 				<div class="col-md-7 content-padding industries-tile-text">
@@ -123,7 +123,7 @@
 						<div class="col-md-12 padding0"><h2 class="industries-heading">PUBLIC SERVICE</h2></div>
 					</div>
 					<div class="row">
-						<div class="col-md-12 picture-container">PIC</div>
+						<div class="col-md-12 picture-container"></div>
 					</div>
 				</div>
 				<div class="col-md-7 content-padding industries-tile-text">

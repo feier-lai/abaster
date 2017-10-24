@@ -66,6 +66,16 @@ nav > ul {
   margin-right:0;
 }
 
+.contentMargin{
+  width: 70vw;
+  margin-left: 15vw;
+  margin-bottom: 8vh;
+}
+
+.padding8vh{
+  padding: 8vh auto;
+}
+
 footer{
   background-color: #1B1919;
   color: #FFF;
@@ -171,7 +181,6 @@ footer{
 }
 
 .section-nav{
-  background-color: red;
   width:100%;
   padding: 0.5em;
   height: 50px;
@@ -299,7 +308,7 @@ footer{
     background-image: url("../img/placeholder.jpg");
     background-repeat: no-repeat;
     background-position: 20%;
-    margin-bottom: 5vh;
+    margin-bottom: 0;
 }
 
 .jumbotron > h1{
@@ -384,10 +393,6 @@ button > a {
 
 button > a:hover{
     color: white;
-}
-
-.top{
-    margin-top: -5vh;
 }
 
 .career{
