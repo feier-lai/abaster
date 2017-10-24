@@ -68,10 +68,14 @@ nav > ul {
 
 footer{
   background-color: #1B1919;
-  color: #FFF;
-  min-height: 400px;
+  color: #AAA;
+  min-height: 200px;
+  margin-top: 20px;
+  padding: 5px;
 }
-
+#CopyrightRow{
+  margin-top: 15px;
+}
 /* landing page */
 
 .landing-container{
