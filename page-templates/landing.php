@@ -9,9 +9,9 @@ get_header(); ?>
 
   <div class="row landing-blocks padding0">
     <div class="owl-carousel" id="top-slider">
-      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/businessImage.jpg' ?>');"></div>
-      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/businessImage.jpg' ?>');"></div>
-      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/businessImage.jpg' ?>');"></div>
+      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/pexels-business-road.jpg' ?>');"></div>
+      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/people-woman-coffee-meeting.jpg' ?>');"></div>
+      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/pexels-photo-258160.jpeg' ?>');"></div>
     </div>
   </div>
 
@@ -55,19 +55,19 @@ get_header(); ?>
     </div>
   </div>
   <div class="row landing-blocks">
-    <div class="col-md-4 industriesTiles">
+    <div class="col-md-3 industriesTiles">
     	<img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>">
     </div>
-    <div class="col-md-4 industriesTiles">
+    <div class="col-md-3 industriesTiles">
     	<img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>">
     </div>
-    <div class="col-md-4 industriesTiles">
+    <div class="col-md-3 industriesTiles">
     	<img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>">
     </div>
   </div>
 </div>
 
-<div class="container-fluid text-center" id="Support" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/businessImage.jpg' ?>');">
+<div class="container-fluid text-center padding10vh landing-container" id="Support" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/pexels-photo-110473.jpeg' ?>');">
 
   <div class="row landing-blocks">
     <div class="col-md-12 SupportContainer">
@@ -85,17 +85,17 @@ get_header(); ?>
 
 <div class="container landing-container text-center" id="OurClients">
 
-  <div clas="row landing-blocks">
+  <div class="row landing-blocks">
     <div class="col-md-12"><h1>OUR CLIENTS</h1></div>
   </div>
-  <div class="row landing-blocks">
-    <div class="col-md-1 OurClientsTiles">test1</div>
-    <div class="col-md-1 OurClientsTiles">test2</div>
-    <div class="col-md-1 OurClientsTiles">test3</div>
-    <div class="col-md-1 OurClientsTiles">test4</div>
-    <div class="col-md-1 OurClientsTiles">test5</div>
-    <div class="col-md-1 OurClientsTiles">test6</div>
-    <div class="col-md-1 OurClientsTiles">test7</div>
+  <div class="owl-carousel owl-theme" id="clientsSlider">
+    <div class="OurClientsTiles">test1</div>
+    <div class="OurClientsTiles">test2</div>
+    <div class="OurClientsTiles">test3</div>
+    <div class="OurClientsTiles">test4</div>
+    <div class="OurClientsTiles">test5</div>
+    <div class="OurClientsTiles">test6</div>
+    <div class="OurClientsTiles">test7</div>
   </div>
 </div>
 

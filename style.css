@@ -17,10 +17,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 body {
     background-color: #FFF;
-
     font-family: "Verdana", sans-serif;
+    width:100%;
     overflow-x: hidden;
 }
+
 header{
   background-color: #161B3F;
   color: #FFF;
@@ -30,13 +31,21 @@ nav > ul {
   list-style: none;
 }
 
+.blue-text{
+  color: #1A6191;
+}
+
 .text-center{
   text-align: center;
 }
 
 .header-container{
-  height: 20vh;
-  padding-top:8vh;
+  height: 15vh;
+  padding-top:5vh;
+}
+
+.branding-container{
+  margin-left: 5vw;
 }
 
 #main-navigation > ul{
@@ -76,6 +85,10 @@ nav > ul {
   padding: 8vh auto;
 }
 
+.padding10vh{
+  padding: 10vh auto;
+}
+
 footer{
   background-color: #1B1919;
   color: #AAA;
@@ -89,7 +102,7 @@ footer{
 /* landing page */
 
 .landing-container{
-	margin: 5vh auto;
+	margin: 12vh auto;
   text-align:center;
 }
 
@@ -101,6 +114,10 @@ footer{
   padding: 2em;
 }
 
+#Industries .landing-blocks:nth-child(3) > div:first-child{
+  margin-left: 9vw;
+}
+
 #TopSection{
   background-color: #FFF;
   color: #000;
@@ -108,12 +125,14 @@ footer{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  overflow:hidden;
 }
 
 .slider-content{
-  height: 80vh;
+  height: 85vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 100%;
 }
 
 #WhatWeDo{
@@ -129,17 +148,18 @@ footer{
 .industriesTiles{
   height: 20vh;
   margin: 0em;
-  padding: 1em;
 }
 
 .industriesTiles img{
-	height: 20vh;
+	max-height: 100%;
+  max-width: 100%;
 }
 #Support{
   /*background-image: url("/assets/images/businessImage.jpg");*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 90%;
   background-color: #FFF;
   color: #000;
 }

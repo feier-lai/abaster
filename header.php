@@ -31,7 +31,9 @@
 		<div class="header-container">
 			<div class="row header-content">
 				<div class="col-md-2">
-					<div class="branding-container">logo</div>
+					<div class="branding-container">
+						testing logo logo
+					</div>
 				</div>
 				<div class="col-md-10">
 					<nav id="main-navigation">
