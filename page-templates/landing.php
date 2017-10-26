@@ -23,14 +23,14 @@ get_header(); ?>
     <div class="col-md-12"><h1>WHAT WE DO</h1></div>
   </div>
   <div class="row landing-blocks">
-    <div class="col-md-4">System Integration</div>
-    <div class="col-md-4">Help desk and Support</div>
-    <div class="col-md-4">Business Process Management</div>
+    <div class="col-md-4"><a href="<?php echo get_site_url() . '/what-we-do/#systemIntegration'; ?>" >System Integration</a></div>
+    <div class="col-md-4"><a href="<?php echo get_site_url() . '/what-we-do/#helpSupport'; ?>" >Help desk and Support</a></div>
+    <div class="col-md-4"><a href="<?php echo get_site_url() . '/what-we-do/#businManagement'; ?>" >Business Process Management</a></div>
   </div>
   <div class="row landing-blocks">
-    <div class="col-md-4">Outsourcing</div>
-    <div class="col-md-4">Identity and Access Management</div>
-    <div class="col-md-4">Training</div>
+    <div class="col-md-4"><a href="<?php echo get_site_url() . '/what-we-do/#outsourcing'; ?>" >Outsourcing</a></div>
+    <div class="col-md-4"><a href="<?php echo get_site_url() . '/what-we-do/#identity'; ?>" >Identity and Access Management</a></div>
+    <div class="col-md-4"><a href="<?php echo get_site_url() . '/what-we-do/#training'; ?>" >Training</a></div>
   </div>
 
 </div>
@@ -82,13 +82,27 @@ get_header(); ?>
     <div class="col-md-12"><h1>OUR CLIENTS</h1></div>
   </div>
   <div class="owl-carousel owl-theme" id="clientsSlider">
-    <div class="OurClientsTiles">test1</div>
-    <div class="OurClientsTiles">test2</div>
-    <div class="OurClientsTiles">test3</div>
-    <div class="OurClientsTiles">test4</div>
-    <div class="OurClientsTiles">test5</div>
-    <div class="OurClientsTiles">test6</div>
-    <div class="OurClientsTiles">test7</div>
+    <div class="OurClientsTiles">
+      <img src="<?php echo get_template_directory_uri(). '/assets/images/clients/bearingpoint.svg' ?>">
+    </div>
+    <div class="OurClientsTiles">
+      <img src="<?php echo get_template_directory_uri(). '/assets/images/clients/Bombardier.svg' ?>"> 
+    </div>
+    <div class="OurClientsTiles">
+      <img src="<?php echo get_template_directory_uri(). '/assets/images/clients/brainbench.png' ?>">
+    </div>
+    <div class="OurClientsTiles">
+      <img src="<?php echo get_template_directory_uri(). '/assets/images/clients/collTech.png' ?>">
+    </div>
+    <div class="OurClientsTiles">
+      <img src="<?php echo get_template_directory_uri(). '/assets/images/clients/xstrata.png' ?>">
+    </div>
+    <div class="OurClientsTiles">
+      <img src="<?php echo get_template_directory_uri(). '/assets/images/clients/IBM.svg' ?>">
+    </div>
+    <div class="OurClientsTiles">
+      <img src="<?php echo get_template_directory_uri(). '/assets/images/clients/Siemens.svg' ?>">
+    </div>
   </div>
 </div>
 

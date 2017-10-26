@@ -179,10 +179,15 @@ footer{
   margin-bottom: 5em;
 }
 .OurClientsTiles{
-  background-color: #AAA;
   height: 50px;
   margin: 1em;
 }
+
+.OurClientsTiles > img {
+  width: 80%;
+  max-height: 100%;
+}
+
 .col-centered {
   float: none;
   margin-right: auto;
@@ -269,7 +274,7 @@ footer{
 @media screen and (min-width: 769px){
 
     .service-p{
-        padding: 10vh 5% 0 2%;
+        padding: 23vh 5% 0 2%;
     }
 
     .service-div {
@@ -279,7 +284,7 @@ footer{
 
     .service-ul{
         width: 20%;
-        left: 37%;
+        left: 3%;
         top: 5vh;
     }
 
@@ -325,8 +330,9 @@ footer{
 /*style for the "header" of the page"*/
 .jumbotron{
     height: 55vh;
-    background-image: url("../img/placeholder.jpg");
+    background-image: url("assets/images/jumbotron.jpeg");
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: 20%;
     margin-bottom: 0;
 }
@@ -350,8 +356,9 @@ h3{
 /*whatwedo*/
 .service-img{
     height: auto;
-    max-height: 25vh;
+/*    max-height: 25vh;*/
     max-width: 100%;
+   /* min-width: 70%;*/
 }
 
 .service-div {
