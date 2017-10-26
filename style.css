@@ -146,14 +146,13 @@ footer{
   height: auto;
 }
 .industriesTiles{
-  height: 20vh;
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25vh;
   margin: 0em;
 }
 
-.industriesTiles img{
-	max-height: 100%;
-  max-width: 100%;
-}
 #Support{
   /*background-image: url("/assets/images/businessImage.jpg");*/
   background-position: center;

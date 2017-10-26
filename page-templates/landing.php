@@ -41,28 +41,21 @@ get_header(); ?>
     <div class="col-md-12"><h1>INDUSTRIES</h1></div>
   </div>
   <div class="row landing-blocks">
-    <div class="col-md-3 industriesTiles">
-    	<img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>">
+    <div class="col-md-3 industriesTiles" alt="Oil and Gas" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/oil and gas.jpeg' ?>');">
     </div>
-    <div class="col-md-3 industriesTiles">
-    	<img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>">
+    <div class="col-md-3 industriesTiles" alt="Telecommunication" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/Telecommunication.jpeg' ?>');">
     </div>
-    <div class="col-md-3 industriesTiles">
-    	<img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>">
+    <div class="col-md-3 industriesTiles" alt="Financial Institution" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/financial institution 4.jpg' ?>');">
     </div>
-    <div class="col-md-3 industriesTiles">
-    	<img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>">
+    <div class="col-md-3 industriesTiles" alt="Manufacturing" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/manufacturing.jpg' ?>');">
     </div>
   </div>
   <div class="row landing-blocks">
-    <div class="col-md-3 industriesTiles">
-    	<img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>">
+    <div class="col-md-3 industriesTiles" alt="Education/Trainig" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/education 2.jpeg' ?>');">
     </div>
-    <div class="col-md-3 industriesTiles">
-    	<img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>">
+    <div class="col-md-3 industriesTiles" alt="aerospace" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/aerospace.jpg' ?>');">
     </div>
-    <div class="col-md-3 industriesTiles">
-    	<img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>">
+    <div class="col-md-3 industriesTiles" alt="Public Service" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/public service 3.jpeg' ?>');">
     </div>
   </div>
 </div>
