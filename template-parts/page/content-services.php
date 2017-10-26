@@ -3,9 +3,9 @@
 </div>
 <div class="container-fluid service-div">
     <div class="row">
-        <div class="col-md-4 col-sm-4 img-cont-ser">
+        <div class="col-md-4 col-sm-4 img-cont-ser" id="systemInegration">
             <h3>system integration</h3>
-            <img class="service-img" src="img/placeholder.jpg" />
+            <img class="service-img" src="<?php echo get_template_directory_uri(). '/assets/images/services/systemintegration.jpeg'; ?>" />
         </div>
         <p class="col-md-8 col-sm-8 text-muted service-p text-center">
             The complexity of running on multiple systems and technicalities that surrounds the implementation across various departments
@@ -20,9 +20,9 @@
 </div>
 <div class="container-fluid service-div">
     <div class="row">
-        <div class="col-md-4 col-sm-4 img-cont-ser">
+        <div class="col-md-4 col-sm-4 img-cont-ser" id="helpSupport">
             <h3>help desk and support</h3>
-            <img class="service-img" src="img/placeholder.jpg" />
+            <img class="service-img" src="<?php echo get_template_directory_uri(). '/assets/images/services/helpdesk.jpeg'; ?>" />
         </div>
         <p class="col-md-8 col-sm-8 text-muted service-p text-center">
             Our support system is characterized with excellent customer service, brilliant performance and on-time service delivery.
@@ -37,9 +37,9 @@
 </div>
 <div class="container-fluid service-div">
     <div class="row">
-        <div class="col-md-4 col-sm-4 img-cont-ser">
+        <div class="col-md-4 col-sm-4 img-cont-ser" id="businManagement">
             <h3>business process management</h3>
-            <img class="service-img" src="img/placeholder.jpg" />
+            <img class="service-img" src="<?php echo get_template_directory_uri(). '/assets/images/services/businessManagement.jpg'; ?>" />
         </div>
         <p class="col-md-8 col-sm-8 text-muted service-p text-center">
             In today's economy, companies must act swiftly but diligently to increase the bottom line by reducing the costs, conserve
@@ -53,10 +53,9 @@
 </div>
 <div class="container-fluid service-div">
     <div class="row">
-        <div class="col-md-4 col-sm-4 img-cont-ser">
+        <div class="col-md-4 col-sm-4 img-cont-ser" id="outsourcing">
             <h3>outsourcing</h3>
-            <img class="service-img" src="img/placeholder.jpg" />
-        </div>
+            <img class="service-img" src="<?php echo get_template_directory_uri(). '/assets/images/services/outsourcing.jpeg'; ?>" />        </div>
         <p class="col-md-8 col-sm-8 text-muted service-p text-center">
             At Abaster, we are focused on technology and IT Outsourcing so you can concentrate on your business core competencies. A
             growing number of firms are turning to us to provide IT outsourcing, project team staffing, and resource
@@ -67,10 +66,9 @@
 </div>
 <div class="container-fluid service-div">
     <div class="row">
-        <div class="col-md-4 col-sm-4 img-cont-ser">
+        <div class="col-md-4 col-sm-4 img-cont-ser" id="identity">
             <h3>identity and access management</h3>
-            <img class="service-img" src="img/placeholder.jpg" />
-        </div>
+            <img class="service-img" src="<?php echo get_template_directory_uri(). '/assets/images/services/identity.jpg'; ?>" />        </div>
         <p class="col-md-8 col-sm-8 text-muted service-p text-center">
             Our identity and access management team provides your company with the best of breed technology that prevents unauthorized
             access to critical and sensitive data. <br/> We will work with your organization to implement
@@ -81,10 +79,9 @@
 </div>
 <div class="container-fluid service-div">
     <div class="row">
-        <div class="col-md-4 col-sm-4 img-cont-ser">
+        <div class="col-md-4 col-sm-4 img-cont-ser" id="training">
             <h3>training</h3>
-            <img class="service-img" src="img/placeholder.jpg" />
-        </div>
+            <img class="service-img" src="<?php echo get_template_directory_uri(). '/assets/images/services/training.jpg'; ?>" />        </div>
         <p class="col-md-8 col-sm-8 text-muted service-p text-center">
             Abaster Consultants are well experienced in delivering in-class and client-site training. Our training is tailored to our
             clients' needs but with a strong emphasis on quality. Since the commencements of our training classes testimonials
