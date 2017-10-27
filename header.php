@@ -18,6 +18,7 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
 
 <?php wp_head(); ?>
 </head>
@@ -48,9 +49,9 @@
 						</ul>-->
 
 							<?php wp_nav_menu( array(
-								'theme_location' => 'top',
+								/*'theme_location' => 'top',*/
 								'container_id' => 'main-navigation',
-								'menu_id'        => 'top-menu',
+								'menu'        => 'main menu',
 							) ); ?>
 					</nav>
 				</div>

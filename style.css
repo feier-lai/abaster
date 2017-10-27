@@ -17,7 +17,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 body {
     background-color: #FFF;
-    font-family: "Verdana", sans-serif;
+    font-family: "Montserrat", sans-serif;
     width:100%;
     overflow-x: hidden;
     font-size: 17px;
@@ -26,6 +26,19 @@ body {
 header{
   background-color: #161B3F;
   color: #FFF;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Raleway";
+}
+
+h1{
+  font-size: 3.5em;
+  font-weight: bolder;
+}
+
+p{
+  font-size: 1em;
 }
 
 nav > ul {
@@ -43,6 +56,10 @@ nav > ul {
 .header-container{
   height: 15vh;
   padding-top:5vh;
+}
+
+.header-subline{
+  font-size: 1.5em;
 }
 
 .branding-container{
@@ -112,6 +129,7 @@ footer{
 }
 
 .landing-blocks{
+  position:relative;
   padding: 2em;
 }
 
@@ -136,6 +154,47 @@ footer{
   background-position: 100%;
 }
 
+.slider-internal-content{
+  position: absolute;
+  z-index:2;
+  top: 35vh;
+  left: 20vw;
+  max-width: 65vw;
+}
+
+.overlay-white{
+  background-color: #fff;
+  opacity: 0.6;
+  position: absolute;
+  bottom:0;
+  height:100vh;
+  width:100vw;
+}
+
+.overlay{
+  background-color: #161B3F;
+  opacity: 0.6;
+  position: absolute;
+  bottom:0;
+  height:100vh;
+  width:100vw;
+}
+
+.overlay-opaque{
+  z-index:2;
+  position: absolute;
+  background-color: #1A6191;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+}
+
+.slider-internal-content h1{
+  margin: 0;
+  padding-top:0;
+}
+
 #WhatWeDo{
   background-color: #1A6191;
   color: #FFF;
@@ -145,24 +204,42 @@ footer{
   background-color: #FFF;
   color: #000;
   height: auto;
+  padding-bottom: 10vh;
 }
 .industriesTiles{
-  height: 20vh;
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 33vh;
   margin: 0em;
+  -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(50%);
 }
 
-.industriesTiles img{
-	max-height: 100%;
-  max-width: 100%;
+.industriesTiles:hover{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(00%);
+
 }
+
+#oil-gas-overlay {
+    display: none;
+}
+
+#oil-gas-tile:hover + #oil-gas-overlay{
+    display: block;
+}
+
 #Support{
   /*background-image: url("/assets/images/businessImage.jpg");*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 90%;
+  background-position: 90% 20%;
   background-color: #FFF;
   color: #000;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
 }
 .SupportContainer{
   width:70vw;
@@ -170,9 +247,9 @@ footer{
 }
 #LearnMore{
   margin-top: 3vh;
-  background-color: #161B3F;
   color: #FFF;
-  padding: 0.7em;
+  padding: 0.7em 2em 0.7em 2em;
+  border:0;
 }
 #OurClients{
   background-color: #FFF;
@@ -188,6 +265,7 @@ footer{
 .OurClientsTiles > img {
   width: 80%;
   max-height: 100%;
+  object-fit: contain;
 }
 
 .col-centered {
@@ -236,8 +314,12 @@ footer{
 }
 
 .picture-container{
-  min-height: 250px;
+  min-height: 500px;
+  min-width: 500px;
   background-color: grey;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 #industries-content{
@@ -249,16 +331,21 @@ footer{
 }
 
 .industries-heading{
-  font-size: 1.2em;
+  font-size: 2em;
   margin-bottom: 3vh;
   color:#1A6191;
   text-transform: uppercase;
   text-align: left;
+  font-weight: bold;
 }
 
 .industries-tile-text{
-  margin-top:3em;
-  padding: 1.5em
+  font-size: 1em;
+  margin-top:3.5em;
+  padding: 1.5em;
+  color:#222;
+  text-align: justify;
+  padding-left: 6vw;
 }
 
 .padding0{
@@ -414,11 +501,6 @@ h3{
 
 .white{
     color: white;
-}
-
-.dark-title{
-  color: #161B3F;
-  margin-top: 15vh;
 }
 
 .img-circle{

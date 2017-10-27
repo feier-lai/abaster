@@ -9,9 +9,27 @@ get_header(); ?>
 
   <div class="row landing-blocks padding0">
     <div class="owl-carousel" id="top-slider">
-      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/pexels-business-road.jpg' ?>');"></div>
-      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/people-woman-coffee-meeting.jpg' ?>');"></div>
-      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/pexels-photo-258160.jpeg' ?>');"></div>
+      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/pexels-photo-258160.jpeg' ?>');">
+        <div class="slider-internal-content white">
+          <h1>slogan 1</h1>
+          <h2 class="header-subline">subline</h2>
+        </div>
+      </div>
+      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/people-woman-coffee-meeting.jpg' ?>');">
+        <div class="overlay"></div>
+        <div class="slider-internal-content white">
+          <h1>Training</h1>
+          <h2 class="header-subline">
+            Abaster Consultants are well experienced in delivering in-class and client-site training. Our training is tailored to our clients' needs but with a strong emphasis on quality.
+          </h2>
+        </div>
+      </div>
+      <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/pexels-man-laptop.jpg' ?>');">
+        <div class="slider-internal-content darkblue-text">
+          <h1>slogan 3</h1>
+          <h2 class="header-subline">subline</h2>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -41,33 +59,27 @@ get_header(); ?>
     <div class="col-md-12"><h1>INDUSTRIES</h1></div>
   </div>
   <div class="row landing-blocks">
-    <div class="col-md-3 industriesTiles">
-    	<img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>">
+    <div id="oil-gas-tile" class="col-md-3 industriesTiles" alt="Oil and Gas" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/oil and gas.jpeg' ?>');">
+      <div id="oil-gas-overlay" class="overlay-opaque"></div>
     </div>
-    <div class="col-md-3 industriesTiles">
-    	<img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>">
+    <div class="col-md-3 industriesTiles" alt="Telecommunication" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/Telecommunication.jpeg' ?>');">
     </div>
-    <div class="col-md-3 industriesTiles">
-    	<img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>">
+    <div class="col-md-3 industriesTiles" alt="Financial Institution" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/financial institution 4.jpg' ?>');">
     </div>
-    <div class="col-md-3 industriesTiles">
-    	<img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>">
+    <div class="col-md-3 industriesTiles" alt="Manufacturing" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/manufacturing.jpg' ?>');">
     </div>
   </div>
   <div class="row landing-blocks">
-    <div class="col-md-3 industriesTiles">
-    	<img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>">
+    <div class="col-md-3 industriesTiles" alt="Education/Trainig" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/education 2.jpeg' ?>');">
     </div>
-    <div class="col-md-3 industriesTiles">
-    	<img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>">
+    <div class="col-md-3 industriesTiles" alt="aerospace" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/aerospace.jpg' ?>');">
     </div>
-    <div class="col-md-3 industriesTiles">
-    	<img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>">
+    <div class="col-md-3 industriesTiles" alt="Public Service" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/public service 3.jpeg' ?>');">
     </div>
   </div>
 </div>
 
-<div class="container-fluid text-center padding10vh landing-container" id="Support" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/pexels-photo-110473.jpeg' ?>');">
+<div class="container-fluid text-center padding10vh landing-container" id="Support" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/pexels-red-phone.jpg' ?>');">
 
   <div class="row landing-blocks">
     <div class="col-md-12 SupportContainer">
