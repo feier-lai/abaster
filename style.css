@@ -313,8 +313,12 @@ footer{
 }
 
 .picture-container{
-  min-height: 250px;
+  min-height: 500px;
+  min-width: 500px;
   background-color: grey;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 #industries-content{
@@ -326,16 +330,21 @@ footer{
 }
 
 .industries-heading{
-  font-size: 1.2em;
+  font-size: 2em;
   margin-bottom: 3vh;
   color:#1A6191;
   text-transform: uppercase;
   text-align: left;
+  font-weight: bold;
 }
 
 .industries-tile-text{
-  margin-top:3em;
-  padding: 1.5em
+  font-size: 1em;
+  margin-top:3.5em;
+  padding: 1.5em;
+  color:#222;
+  text-align: justify;
+  padding-left: 6vw;
 }
 
 .padding0{
