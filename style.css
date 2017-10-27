@@ -20,6 +20,7 @@ body {
     font-family: "Verdana", sans-serif;
     width:100%;
     overflow-x: hidden;
+    font-size: 17px;
 }
 
 header{
@@ -275,7 +276,7 @@ footer{
 @media screen and (min-width: 769px){
 
     .service-p{
-        padding: 23vh 5% 0 2%;
+        padding: 0 5% 0 2%;
     }
 
     .service-div {
@@ -302,10 +303,6 @@ footer{
 }
   /*media query for screens under 769px*/
 @media screen and (max-width: 768px){
-
-    h3{
-        text-align: center;
-    }
 
     .service-img{
         margin-bottom: 5vh;
@@ -352,14 +349,14 @@ h3{
     text-transform: uppercase;
     color: #1A6191;
     margin-bottom: 3vh;
+    margin-top: 20vh;
+    font-size: 2em;
 }
 
 /*whatwedo*/
 .service-img{
     height: auto;
-/*    max-height: 25vh;*/
-    max-width: 100%;
-   /* min-width: 70%;*/
+    padding: 5%;
 }
 
 .service-div {
@@ -370,8 +367,30 @@ h3{
     position: relative;
 }
 
-.img-cont-ser{
+.space-left{
     padding-left: 5%;
+}
+
+.space-right{
+  padding-right: 5%;
+}
+
+.icon-img{
+  max-height: 20vh;
+}
+
+.double{
+  margin-top: 3vh;
+}
+
+.courses{
+  width: 100%;
+  margin: 0;
+}
+
+.courses-cont{
+    margin-left: 10vw;
+    width: 80vw;
 }
 
 /*whoweare*/
@@ -395,6 +414,11 @@ h3{
 
 .white{
     color: white;
+}
+
+.dark-title{
+  color: #161B3F;
+  margin-top: 15vh;
 }
 
 .img-circle{
@@ -455,7 +479,8 @@ h4:hover{
 }
 
 .container-fluid{
-    padding: 5vh 0;
+    padding: 3vh 0;
+    margin-bottom: 0;
 }
 
 .job{
