@@ -32,14 +32,13 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h1{
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: bolder;
 }
 
 p{
   font-size: 1em;
 }
-
 
 nav > ul {
   list-style: none;
@@ -56,6 +55,10 @@ nav > ul {
 .header-container{
   height: 15vh;
   padding-top:5vh;
+}
+
+.header-subline{
+  font-size: 1.5em;
 }
 
 .branding-container{
@@ -125,6 +128,7 @@ footer{
 }
 
 .landing-blocks{
+  position:relative;
   padding: 2em;
 }
 
@@ -149,6 +153,47 @@ footer{
   background-position: 100%;
 }
 
+.slider-internal-content{
+  position: absolute;
+  z-index:2;
+  top: 35vh;
+  left: 20vw;
+  max-width: 65vw;
+}
+
+.overlay-white{
+  background-color: #fff;
+  opacity: 0.6;
+  position: absolute;
+  bottom:0;
+  height:100vh;
+  width:100vw;
+}
+
+.overlay{
+  background-color: #161B3F;
+  opacity: 0.6;
+  position: absolute;
+  bottom:0;
+  height:100vh;
+  width:100vw;
+}
+
+.overlay-opaque{
+  z-index:2;
+  position: absolute;
+  background-color: #1A6191;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+}
+
+.slider-internal-content h1{
+  margin: 0;
+  padding-top:0;
+}
+
 #WhatWeDo{
   background-color: #1A6191;
   color: #FFF;
@@ -158,13 +203,30 @@ footer{
   background-color: #FFF;
   color: #000;
   height: auto;
+  padding-bottom: 10vh;
 }
 .industriesTiles{
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 25vh;
+  height: 33vh;
   margin: 0em;
+  -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(50%);
+}
+
+.industriesTiles:hover{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(00%);
+
+}
+
+#oil-gas-overlay {
+    display: none;
+}
+
+#oil-gas-tile:hover + #oil-gas-overlay{
+    display: block;
 }
 
 #Support{
@@ -172,9 +234,11 @@ footer{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 90%;
+  background-position: 90% 20%;
   background-color: #FFF;
   color: #000;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
 }
 .SupportContainer{
   width:70vw;
@@ -182,9 +246,9 @@ footer{
 }
 #LearnMore{
   margin-top: 3vh;
-  background-color: #161B3F;
   color: #FFF;
-  padding: 0.7em;
+  padding: 0.7em 2em 0.7em 2em;
+  border:0;
 }
 #OurClients{
   background-color: #FFF;
@@ -409,6 +473,18 @@ h3{
 
 .white{
     color: white;
+}
+
+.red-text{
+  color: #E41919;
+}
+
+.red{
+  background-color: #E41919;
+}
+
+.darkblue-text{
+  color: #161B3F;
 }
 
 .img-circle{
