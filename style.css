@@ -17,7 +17,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 body {
     background-color: #FFF;
-    font-family: "Verdana", sans-serif;
+    font-family: "Montserrat", sans-serif;
     width:100%;
     overflow-x: hidden;
 }
@@ -26,6 +26,20 @@ header{
   background-color: #161B3F;
   color: #FFF;
 }
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Raleway";
+}
+
+h1{
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+p{
+  font-size: 1em;
+}
+
 
 nav > ul {
   list-style: none;
@@ -186,6 +200,7 @@ footer{
 .OurClientsTiles > img {
   width: 80%;
   max-height: 100%;
+  object-fit: contain;
 }
 
 .col-centered {
