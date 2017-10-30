@@ -480,6 +480,18 @@ h3{
     width: 80vw;
 }
 
+.dark-title{
+  color: #161B3F;
+}
+
+.line{
+  border-top: 4px solid #1A6191;
+}
+
+li{
+  text-align: left;
+}
+
 /*whoweare*/
 
 .about > p{

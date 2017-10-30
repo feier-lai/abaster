@@ -19,7 +19,7 @@
     </div>
 </div>
 <div class="container-fluid service-div">
-    <div class="row">
+    <div class="row line">
     <img class="service-img col-md-6 col-sm-6 text-muted " src="<?php echo get_template_directory_uri(). '/assets/images/services/helpdesk.jpeg'; ?>" />
         <div class="col-md-6 col-sm-6 space-right text-center" id="helpSupport">
             <h3>help desk and support</h3>
@@ -76,7 +76,7 @@
     </div>
 </div>
 <div class="container-fluid service-div text-center">
-    <div class="row">
+    <div class="row line">
         <img class="service-img col-md-6 col-sm-6 text-muted" src="<?php echo get_template_directory_uri(). '/assets/images/services/training.jpg'; ?>" />
         <div class="col-md-6 col-sm-6 space-right text-center" id="training">
             <h3>training</h3>
