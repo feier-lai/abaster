@@ -386,6 +386,14 @@ footer{
     .jumbotron > h1{
       top: 27vh;
     }
+
+    .jumbotron{
+      height: 55vh;
+    }
+
+    .blue > img{
+      padding-top: 3vh;
+    }
 }
 
 @media screen and (max-width: 846px){
@@ -396,6 +404,31 @@ footer{
         width: 28%;
     }
 
+}
+
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1366px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+  
+  h3{
+    margin-top: 3vh;
+  }
+
+  .blue > img{
+    margin-top: 6vh;
+  }
+  .training-img{
+    margin-top: 3vh;
+  }
+  .jumbotron > h1 {
+    top:15vh;
+  }
+
+  .jumbotron{
+    height: 27vh;
+  }
 }
   /*media query for screens under 769px*/
 @media screen and (max-width: 768px){
@@ -428,16 +461,23 @@ footer{
 
     .blue > img{
       max-height: 50vh;
+      max-width: 100%;
     }
 
     .jumbotron > h1{
       top: 12vh;
     }
+
+    .training-img{
+      max-height: 55vh;
+      max-width: 100%;
+      padding-top: 4%;
+    }
+
 }
 
 /*style for the "header" of the page"*/
 .jumbotron{
-    height: 55vh;
     background-image: url("assets/images/jumbotron.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
