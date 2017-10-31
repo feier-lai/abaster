@@ -429,6 +429,7 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
   .jumbotron{
     height: 27vh;
   }
+
 }
   /*media query for screens under 769px*/
 @media screen and (max-width: 768px){
@@ -474,6 +475,9 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
       padding-top: 4%;
     }
 
+    .jumbotron{
+      height: 30vh;
+    }
 }
 
 /*style for the "header" of the page"*/
@@ -571,6 +575,7 @@ li{
 
 .blue{
     background-color: #1A6191;
+      padding: 3vh 0;  
 }
 
 .white{
