@@ -3,7 +3,7 @@
 </div>
 <div class="container-fluid service-div">
     <div class="row">
-        <div class="col-md-6 col-sm-6 space-left text-center" id="systemInegration">
+        <div class="col-md-6 space-left text-center" id="systemInegration">
             <h3>system integration</h3>
             <p class="text-muted service-p">
             The complexity of running on multiple systems and technicalities that surrounds the implementation across various departments
@@ -15,13 +15,13 @@
             of our clients.
         </p>
         </div>
-        <img class="col-md-6 col-sm-6 service-img" src="<?php echo get_template_directory_uri(). '/assets/images/services/systemintegration.jpeg'; ?>" />
+        <img class="col-md-6 service-img" src="<?php echo get_template_directory_uri(). '/assets/images/services/systemintegration.jpeg'; ?>" />
     </div>
 </div>
 <div class="container-fluid service-div">
     <div class="row line">
-    <img class="service-img col-md-6 col-sm-6 text-muted " src="<?php echo get_template_directory_uri(). '/assets/images/services/helpdesk.jpeg'; ?>" />
-        <div class="col-md-6 col-sm-6 space-right text-center" id="helpSupport">
+    <img class="service-img col-md-6 text-muted " src="<?php echo get_template_directory_uri(). '/assets/images/services/helpdesk.jpeg'; ?>" />
+        <div class="col-md-6 space-right text-center" id="helpSupport">
             <h3>help desk and support</h3>
             <p class="service-p text-muted">
             Our support system is characterized with excellent customer service, brilliant performance and on-time service delivery.
@@ -37,7 +37,7 @@
 </div>
 <div class="container-fluid service-div">
     <div class="row blue">
-        <div class="col-md-6 col-sm-6 text-center space-left " id="businManagement">
+        <div class="col-md-6 text-center space-left " id="businManagement">
             <h3 class="dark-title">business process management</h3>
             <p class="text-muted service-p white">
             In today's economy, companies must act swiftly but diligently to increase the bottom line by reducing the costs, conserve
@@ -48,7 +48,7 @@
             our clients.
         </p>
         </div>
-        <img class="col-md-6 col-sm-6" src="<?php echo get_template_directory_uri(). '/assets/images/services/businessManagement.jpg'; ?>" />
+        <img class="col-md-6" src="<?php echo get_template_directory_uri(). '/assets/images/services/businessManagement.jpg'; ?>" />
     </div>
 </div>
 <div class="container-fluid service-div">
@@ -77,8 +77,8 @@
 </div>
 <div class="container-fluid service-div text-center">
     <div class="row line">
-        <img class="service-img col-md-6 col-sm-6 text-muted" src="<?php echo get_template_directory_uri(). '/assets/images/services/training.jpg'; ?>" />
-        <div class="col-md-6 col-sm-6 space-right text-center" id="training">
+        <img class="service-img col-md-6 text-muted" src="<?php echo get_template_directory_uri(). '/assets/images/services/training.jpg'; ?>" />
+        <div class="col-md-6 space-right text-center" id="training">
             <h3>training</h3>
             <p class="text-muted service-p">
                 Abaster Consultants are well experienced in delivering in-class and client-site training. Our training is tailored to our
