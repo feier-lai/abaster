@@ -54,7 +54,7 @@
 <div class="container-fluid service-div">
     <div class="row">
         <div class="col-md-6 col-sm-6  text-center space-left" id="outsourcing">
-            <img class="icon-img" src="<?php echo get_template_directory_uri(). '/assets/images/icons/defoult.png'; ?>" />
+            <img class="icon-img" src="<?php echo get_template_directory_uri(). '/assets/images/icons/outsource.svg'; ?>" />
             <h3 class="double first">outsourcing</h3>
             <p class="text-muted service-p ">
             At Abaster, we are focused on technology and IT Outsourcing so you can concentrate on your business core competencies. A
