@@ -11,8 +11,8 @@ get_header(); ?>
     <div class="owl-carousel" id="top-slider">
       <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/pexels-photo-258160.jpeg' ?>');">
         <div class="slider-internal-content white">
-          <h1>slogan 1</h1>
-          <h2 class="header-subline">subline</h2>
+          <h1>System Integration</h1>
+          <h2 class="header-subline">Abaster's team prides itself as a first class system integrator of ERP Applications. We understand the significance of well integrated system to the Business of our clients.</h2>
         </div>
       </div>
       <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/people-woman-coffee-meeting.jpg' ?>');">
@@ -26,8 +26,8 @@ get_header(); ?>
       </div>
       <div class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/pexels-man-laptop.jpg' ?>');">
         <div class="slider-internal-content darkblue-text">
-          <h1>slogan 3</h1>
-          <h2 class="header-subline">subline</h2>
+          <h1>Help desk and Support</h1>
+          <h2 class="header-subline">Our support system is characterized with excellent customer service, brilliant performance and on-time service delivery. </h2>
         </div>
       </div>
     </div>

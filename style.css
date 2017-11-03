@@ -137,6 +137,10 @@ footer{
   padding: 2em;
 }
 
+.landing-blocks > div > a {
+  color: white;
+}
+
 #Industries .landing-blocks:nth-child(3) > div:first-child{
   margin-left: 9vw;
 }
@@ -399,7 +403,7 @@ footer{
     }
 
     
-    h3{
+    .service-h3{
       margin-top: 20vh;
     }
 
@@ -433,7 +437,7 @@ and (max-device-width: 1366px)
 and (orientation: portrait) 
 and (-webkit-min-device-pixel-ratio: 1.5) {
   
-  h3{
+  .service-h3{  
     margin-top: 3vh;
   }
 
@@ -477,7 +481,7 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
         width: 50%;
     }
 
-    h3{
+    .service-h3{
       margin-top: 3vh;
     }
 
@@ -584,6 +588,7 @@ li{
 .about > p{
     margin: auto;
 }
+
 
 /*p{
     width: 70%;
