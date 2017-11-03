@@ -360,11 +360,12 @@ function twentyseventeen_excerpt_more( $link ) {
 	$link = sprintf( '<p class="link-more"><a href="%1$s" class="more-link">%2$s</a></p>',
 		esc_url( get_permalink( get_the_ID() ) ),
 		/* translators: %s: Name of current post */
-		sprintf( __( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'twentyseventeen' ), get_the_title( get_the_ID() ) )
+		sprintf( __( '[ Read More ]', 'twentyseventeen' ), get_the_title( get_the_ID() ) )
 	);
 	return ' &hellip; ' . $link;
 }
 add_filter( 'excerpt_more', 'twentyseventeen_excerpt_more' );
+
 
 /**
  * Handles JavaScript detection.
@@ -599,3 +600,21 @@ require get_parent_theme_file_path( '/inc/customizer.php' );
  * SVG icons functions and filters.
  */
 require get_parent_theme_file_path( '/inc/icon-functions.php' );
+
+
+/*modify read more text link in post previews */
+function modify_read_more_link() {
+    return  '...' . '<a class="more-link" href="' . get_permalink() . '">Read More</a>';
+}
+add_filter( 'the_content_more_link', 'modify_read_more_link' );
+
+/**
+ * Filter the except length to 20 words.
+ *
+ * @param int $length Excerpt length.
+ * @return int (Maybe) modified excerpt length.
+ */
+function wpdocs_custom_excerpt_length( $length ) {
+    return 25;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );

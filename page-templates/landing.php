@@ -151,7 +151,7 @@ get_header(); ?>
     <div class="col-md-4">
       <img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>" class="NewsImage">
       <p><?php echo the_title(); ?></p>
-      <p><?php echo the_content(); ?></p>
+      <p><?php echo the_excerpt(); ?></p>
     </div>
 
 <?php endwhile;endif; wp_reset_postdata();?>
