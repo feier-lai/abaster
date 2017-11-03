@@ -89,7 +89,7 @@ get_header(); ?>
       Our client support specialists are properly trained to act timely and professionally. We honor the service agreement with our clients as well as adhereing to the turn-around, as staated in the Service Level Agreement.<br/>
       Client support requires technical experties to diagnose issues and respond promptly. At Abaster we undrestand this critical requirement hence; we have recruited the best brains to respond to your system issues with possible quick resolution. Supporting your business to achive your organizational goal is our responsibility.<br/>
       </p>
-    <button id="LearnMore">LEARN MORE</button>
+    <a href="<?php echo get_site_url() . '/what-we-do/#helpSupport'; ?>"><button id="LearnMore">LEARN MORE</button></a>
     </div>
   </div>
 

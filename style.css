@@ -53,6 +53,10 @@ nav > ul {
   text-align: center;
 }
 
+.float-right{
+  float: right;
+}
+
 .header-container{
   height: 15vh;
   padding-top:5vh;
@@ -114,10 +118,19 @@ nav > ul {
 footer{
   background-color: #1B1919;
   color: #AAA;
-  min-height: 200px;
+  height: 45vh;
   margin-top: 20px;
   padding: 5px;
 }
+
+footer .container .row:first-child{
+  margin-top: 3vh;
+}
+
+footer .container .row:nth-child(2){
+  margin-top: 5vh;
+}
+
 #CopyrightRow{
   margin-top: 15px;
 }
@@ -208,6 +221,11 @@ footer{
   color: #FFF;
   height: auto;
 }
+
+#WhatWeDo a, #WhatWeDo a:visited, #WhatWeDo a:hover, #WhatWeDo a:active{
+  color: #FFF;
+}
+
 #Industries{
   background-color: #FFF;
   color: #000;
@@ -657,6 +675,9 @@ h4:hover{
 
 .apply{
     margin-top: 5vh;
+    color: #FFF;
+    padding: 0.7em 2em 0.7em 2em;
+    border: 0;
 }
 
 .spontaneous{
