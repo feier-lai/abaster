@@ -60,21 +60,28 @@ get_header(); ?>
   </div>
   <div class="row landing-blocks">
     <div id="oil-gas-tile" class="col-md-3 industriesTiles" alt="Oil and Gas" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/oil and gas.jpeg' ?>');">
+      <a href="<?php echo get_site_url() . '/Industries/#OIL'; ?>">OIL AND GAS</a>
       <div id="oil-gas-overlay" class="overlay-opaque"></div>
     </div>
     <div class="col-md-3 industriesTiles" alt="Telecommunication" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/Telecommunication.jpeg' ?>');">
+      <a href="<?php echo get_site_url() . '/Industries/#TELECOMMUNICATION'; ?>">TELECOMMUNICATION</a>
     </div>
     <div class="col-md-3 industriesTiles" alt="Financial Institution" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/financial institution 4.jpg' ?>');">
+      <a href="<?php echo get_site_url() . '/Industries/#FINANCIAL'; ?>">FINANCIAL INSTITUTION</a>
     </div>
     <div class="col-md-3 industriesTiles" alt="Manufacturing" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/manufacturing.jpg' ?>');">
+      <a href="<?php echo get_site_url() . '/Industries/#MANUFACTURING'; ?>">MANUFACTURING</a>
     </div>
   </div>
   <div class="row landing-blocks">
     <div class="col-md-3 industriesTiles" alt="Education/Trainig" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/education 2.jpeg' ?>');">
+      <a href="<?php echo get_site_url() . '/Industries/#EDUCATION'; ?>">EDUCATION</a>
     </div>
     <div class="col-md-3 industriesTiles" alt="aerospace" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/aerospace.jpg' ?>');">
+      <a href="<?php echo get_site_url() . '/Industries/#AEROSPACE'; ?>">AEROSPACE</a>
     </div>
     <div class="col-md-3 industriesTiles" alt="Public Service" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/Industries/public service 3.jpeg' ?>');">
+      <a href="<?php echo get_site_url() . '/Industries/#PUBLIC'; ?>">PUBLIC SERVICE</a>
     </div>
   </div>
 </div>
@@ -105,7 +112,7 @@ get_header(); ?>
       <img src="<?php echo get_template_directory_uri(). '/assets/images/clients/bearingpoint.svg' ?>">
     </div>
     <div class="OurClientsTiles">
-      <img src="<?php echo get_template_directory_uri(). '/assets/images/clients/Bombardier.svg' ?>"> 
+      <img src="<?php echo get_template_directory_uri(). '/assets/images/clients/Bombardier.svg' ?>">
     </div>
     <div class="OurClientsTiles">
       <img src="<?php echo get_template_directory_uri(). '/assets/images/clients/brainbench.png' ?>">

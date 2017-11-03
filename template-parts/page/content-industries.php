@@ -7,13 +7,13 @@
     <div class="section-nav blue">
 		<nav class="page-navigation">
 			<ul>
-				<li><a href="#oil-and-gas">OIL AND GAS</a></li>
-				<li><a href="#telecommunication">TELECOMMUNICATION</a></li>
-				<li><a href="#financial-institutions">FINANCIAL INSTITUTIONS</a></li>
-				<li><a href="#manufacturing">MANUFACTURING</a></li>
-				<li><a href="#education">EDUCATION</a></li>
-				<li><a href="#aerospace">AEROSPACE</a></li>
-				<li><a href="#public-service">PUBLIC SERVICE</a></li>
+				<li><a href="#OIL">OIL AND GAS</a></li>
+				<li><a href="#TELECOMMUNICATION">TELECOMMUNICATION</a></li>
+				<li><a href="#FINANCIAL">FINANCIAL INSTITUTIONS</a></li>
+				<li><a href="#MANUFACTURING">MANUFACTURING</a></li>
+				<li><a href="#EDUCATION">EDUCATION</a></li>
+				<li><a href="#AEROSPACE">AEROSPACE</a></li>
+				<li><a href="#PUBLIC">PUBLIC SERVICE</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -33,7 +33,7 @@
 
 		?>
   <?php if($repeater_textdir=='right'): ?>
-    <div class="container padding30vh" id="public-service">
+    <div class="container padding30vh" id="<?php echo $repeater_header;?>">
       <div class="row">
         <div class="col-md-12 col-sm-12 picture-container-smallscreens" alt="" style="background-image:url('<?php echo $repeater_image; ?>');"></div>
       </div>
@@ -56,7 +56,7 @@
 
 
 <?php if($repeater_textdir=='left'): ?>
-    <div class="container padding30vh" id="aerospace">
+    <div class="container padding30vh" id="<?php echo $repeater_header;?>">
       <div class="row">
         <div class="col-md-12 col-sm-12 picture-container-smallscreens" alt="" style="background-image:url('<?php echo $repeater_image; ?>');"></div>
       </div>
@@ -64,7 +64,6 @@
 				<div class="col-md-7 col-sm-7 content-padding industries-tile-text">
           <h2 class="industries-heading"><?php echo $repeater_header; ?></h2>
           <?php echo $repeater_text; ?>
-          <?php echo $repeater_textdir; ?>
 				</div>
         <div class="col-md-5 col-sm-5">
 					<div class="row">
