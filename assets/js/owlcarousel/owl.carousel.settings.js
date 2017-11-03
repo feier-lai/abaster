@@ -11,7 +11,7 @@ jQuery(document).ready(function( $ ) {
         touchDrag: true,
         dots: false,
         nav: false,
-        autoplay:true,
+        autoplay: true,
         autoplayTimeout: 8000
     });
 

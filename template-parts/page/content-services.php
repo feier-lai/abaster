@@ -4,7 +4,7 @@
 <div class="container-fluid service-div">
     <div class="row">
         <div class="col-md-6 space-left text-center" id="systemInegration">
-            <h3>system integration</h3>
+            <h3 class="service-h3">system integration</h3>
             <p class="text-muted service-p">
             The complexity of running on multiple systems and technicalities that surrounds the implementation across various departments
             and organizations have made system integration a critical part of information technology and application
@@ -22,7 +22,7 @@
     <div class="row line">
     <img class="service-img col-md-6 text-muted " src="<?php echo get_template_directory_uri(). '/assets/images/services/helpdesk.jpeg'; ?>" />
         <div class="col-md-6 space-right text-center" id="helpSupport">
-            <h3>help desk and support</h3>
+            <h3 class="service-h3">help desk and support</h3>
             <p class="service-p text-muted">
             Our support system is characterized with excellent customer service, brilliant performance and on-time service delivery.
             Our Client support specialists are properly trained to act timely and professionally. We honor the service
@@ -38,7 +38,7 @@
 <div class="container-fluid service-div">
     <div class="row blue">
         <div class="col-md-6 text-center space-left " id="businManagement">
-            <h3 class="dark-title">business process management</h3>
+            <h3 class="dark-title service-h3">business process management</h3>
             <p class="text-muted service-p white">
             In today's economy, companies must act swiftly but diligently to increase the bottom line by reducing the costs, conserve
             cash, and out-innovate the competition, while using fewer resources. <br/><br/> Organizations
@@ -55,7 +55,7 @@
     <div class="row">
         <div class="col-md-6 col-sm-6  text-center space-left" id="outsourcing">
             <img class="icon-img" src="<?php echo get_template_directory_uri(). '/assets/images/icons/outsource.svg'; ?>" />
-            <h3 class="double first">outsourcing</h3>
+            <h3 class="double first service-h3">outsourcing</h3>
             <p class="text-muted service-p ">
             At Abaster, we are focused on technology and IT Outsourcing so you can concentrate on your business core competencies. A
             growing number of firms are turning to us to provide IT outsourcing, project team staffing, and resource
@@ -65,7 +65,7 @@
         </div>
         <div class="col-md-6 col-sm-6  text-center space-right">
             <img class="icon-img" src="<?php echo get_template_directory_uri(). '/assets/images/icons/defoult.png'; ?>" />
-            <h3 class="double">identity and access management</h3>
+            <h3 class="double serivice-h3">identity and access management</h3>
             <p class="text-muted service-p">
                 Our identity and access management team provides your company with the best of breed technology that prevents unauthorized
                 access to critical and sensitive data. <br/> We will work with your organization to implement
@@ -79,7 +79,7 @@
     <div class="row line">
         <img class="training-img col-md-6 text-muted" src="<?php echo get_template_directory_uri(). '/assets/images/services/training.jpg'; ?>" />
         <div class="col-md-6 space-right text-center" id="training">
-            <h3>training</h3>
+            <h3 class="service-h3">training</h3>
             <p class="text-muted service-p">
                 Abaster Consultants are well experienced in delivering in-class and client-site training. Our training is tailored to our
                 clients' needs but with a strong emphasis on quality. Since the commencements of our training classes testimonials

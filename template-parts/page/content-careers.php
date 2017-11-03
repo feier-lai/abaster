@@ -3,12 +3,7 @@
     </div>
     <div class="container-fluid text-center dark careers-cont about">
         <h3 class="white">why abaster</h3>
-        <p class="white contentMargin">The complexity of running on multiple systems and technicalities that surrounds the implementation across various
-            departments and organizations have made system integration a critical part of information technology and application
-            deployment. <br/><br/> With well integrated ERP applications like SAP, Oracle, and others, it is important that
-            organizations involve experienced system integrators. Abaster’s team prides itself as a first class system integrator
-            of ERP applications. <br/><br/> We understand the significance of a well integrated system to the business of
-            our clients.
+        <p class="white contentMargin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
     </div>
     <div class="container-fluid text-center blue">
