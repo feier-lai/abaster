@@ -32,8 +32,8 @@
 				    </div>
 				  <div class="row">
 				  	<div class="col-md-12">
-				  		email: xxx<br>
-				  		phone: xxx
+				  		Email: info@abasterconsulting.com<br>
+				  		Phone: 416.820.1636
 				  	</div>
 				  </div>
 				    <div class="row" id="CopyrightRow">

@@ -149,8 +149,8 @@ get_header(); ?>
     ?>
 
     <div class="col-md-4">
-      <img src="<?php echo get_template_directory_uri(). '/assets/images/BlueWallpaper.jpg' ?>" class="NewsImage">
-      <p><?php echo the_title(); ?></p>
+      <a href="<?php echo get_permalink();?>"><?php echo the_post_thumbnail('post-thumbnail', ['class' => 'NewsImage']);?></a>
+      <h4><?php echo the_title(); ?></h4>
       <p><?php echo the_excerpt(); ?></p>
     </div>
 

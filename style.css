@@ -288,8 +288,11 @@ footer{
   margin-bottom: 5em;
 }
 .NewsImage{
-  height: 159px;
+  height: 20vh;
+  width: 20vw;
   margin: auto;
+  object-fit: cover;
+  margin-bottom: 1em;
 }
 /*industries*/
 
