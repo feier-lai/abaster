@@ -7,13 +7,13 @@
     <div class="section-nav blue">
 		<nav class="page-navigation">
 			<ul>
-				<li><a href="#OIL">OIL AND GAS</a></li>
+				<li><a href="#OIL AND GAS">OIL AND GAS</a></li>
 				<li><a href="#TELECOMMUNICATION">TELECOMMUNICATION</a></li>
-				<li><a href="#FINANCIAL">FINANCIAL INSTITUTIONS</a></li>
+				<li><a href="#FINANCIAL INSTITUTIONS">FINANCIAL INSTITUTIONS</a></li>
 				<li><a href="#MANUFACTURING">MANUFACTURING</a></li>
 				<li><a href="#EDUCATION">EDUCATION</a></li>
 				<li><a href="#AEROSPACE">AEROSPACE</a></li>
-				<li><a href="#PUBLIC">PUBLIC SERVICE</a></li>
+				<li><a href="#PUBLIC SERVICE">PUBLIC SERVICE</a></li>
 			</ul>
 		</nav>
 	</div>
