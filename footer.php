@@ -22,22 +22,20 @@
 				    <div class="row">
 				      <div class="col-md-12"><h1 id="ContactUs">CONTACT US</h1></div>
 				    </div>
-				    <div class="row">
-				    	<div class="col-md-4 col-md-offset-4">
-				    		privacy policy
-				    	</div>
-				    	<div class="col-md-4">
-				    		careers
-				    	</div>
-				    </div>
 				  <div class="row">
-				  	<div class="col-md-12">
-				  		Email: info@abasterconsulting.com<br>
+				  	<div class="col-md-6">
+				  		Email: <a href="mailto:info@abasterconsulting.com">info@abasterconsulting.com</a><br>
 				  		Phone: 416.820.1636
+				  	</div>
+				  	<div class="col-md-3">
+				  		privacy policy
+				  	</div>
+				  	<div class="col-md-3">
+				  		careers
 				  	</div>
 				  </div>
 				    <div class="row" id="CopyrightRow">
-				      <div class="col-md-12">copyright 2017, Abaster Consulting</div>
+				      <div class="col-md-12">Copyright 2017, Abaster Consulting</div>
 				    </div>
 				</div>
 			</div><!-- .wrap -->

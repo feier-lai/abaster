@@ -31,12 +31,12 @@
 
 		<div class="header-container">
 			<div class="row header-content">
-				<div class="col-md-2">
+				<div class="col-md-3">
 					<div class="branding-container">
-						testing logo logo
+						<a href="<?php echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri(). '/assets/images/Abaster-Logo-white.svg' ?>"></a>
 					</div>
 				</div>
-				<div class="col-md-10">
+				<div class="col-md-7 float-right">
 					<nav id="main-navigation">
 						<!--<ul>
 							<li><a href="#">HOME</a></li>
