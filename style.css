@@ -147,7 +147,6 @@ footer .container .row:nth-child(2){
 
 .landing-blocks{
   position:relative;
-  padding: 2em;
 }
 
 .landing-blocks > div > a {
@@ -651,6 +650,7 @@ h4:hover{
     }
 
 
+
     .service-h3{
       margin-top: 0vh;
     }
@@ -668,6 +668,9 @@ h4:hover{
       margin-bottom: 5vh;
     }
 
+    .landing-blocks{
+      padding: 2em;
+    }
 
     .jumbotron > h1{
       top: 27vh;
@@ -704,6 +707,9 @@ h4:hover{
     margin-left: 0vw;
     }
     
+    .landing-blocks{
+      padding: 0em;
+    }
 
     .jumbotron > h1{
       font-size: 2em;
@@ -806,6 +812,11 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
     .service-h3{
       margin-top: 3vh;
     }
+
+    .landing-blocks > div{
+      margin-bottom: 2vh;
+    }
+
 
     .blue > img{
       max-height: 50vh;
