@@ -511,8 +511,12 @@ footer .container .row:nth-child(2){
 
     #Industries .landing-blocks:nth-child(3) > div:first-child {
     margin-left: 0vw;
-  }
+    }
     
+
+    .jumbotron > h1{
+      font-size: 2em;
+    }
 
     .branding-container img{
       width: 200px;
@@ -520,6 +524,31 @@ footer .container .row:nth-child(2){
 
     .header-container {
     height: 30vh;
+    }
+
+    .slider-internal-content h1{
+      font-size: 2em;
+    }
+
+    .header-subline{
+      font-size: 1.2em;
+    }
+
+    .slider-internal-content{
+      top: 15vh;
+      max-width: 85vw;
+    }
+
+    .overlay{
+      width: 100%;
+    }
+
+    #slider-two .slider-internal-content{
+      padding: 2em;
+    }
+
+    .slider-internal-content{
+      left: 13vw;
     }
 
 }
@@ -604,6 +633,7 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
 
     #Support{
       padding-top: 6vh;
+    }
 }
 
 /*style for the "header" of the page"*/
