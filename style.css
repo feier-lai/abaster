@@ -482,6 +482,7 @@ footer .container .row:nth-child(2){
     .jumbotron > h1{
       top: 27vh;
       font-size: 3.5em;
+      width:65%;
     }
 
     .jumbotron{
@@ -585,8 +586,9 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
     }
 
     .jumbotron > h1{
-      top: 12vh;
-    }
+      width: 93%;
+      font-size: 2.4em;
+      }
 
     .training-img{
       max-height: 55vh;
@@ -604,6 +606,7 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
 
     #Support{
       padding-top: 6vh;
+    }
 }
 
 /*style for the "header" of the page"*/
@@ -620,9 +623,7 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
     text-transform: uppercase;
     position: absolute;
     left: 3%;
-    top: 55%;
-    width:65%;
-    font-size: 3.2em;
+    top: 49%;
     background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
     background: -webkit-linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
     background: -moz-linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
