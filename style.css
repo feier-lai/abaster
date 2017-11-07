@@ -750,6 +750,18 @@ h4:hover{
       padding-left: 6vw;
     }
 
+    .landing-blocks .SupportContainer {
+      width: 90vw;
+    }
+
+    .landing-blocks .SupportContainer p{
+      margin-bottom:1em;
+    }
+
+    footer{
+      padding: 1em;
+    }
+
 }
 
 @media only screen
