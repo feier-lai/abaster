@@ -501,6 +501,19 @@ footer .container .row:nth-child(2){
         width: 28%;
     }
 
+    #Industries .landing-blocks:nth-child(3) > div:first-child {
+    margin-left: 0vw;
+  }
+    
+
+    .branding-container img{
+      width: 200px;
+    }
+
+    .header-container {
+    height: 30vh;
+    }
+
 }
 
 @media only screen
