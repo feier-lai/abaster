@@ -89,6 +89,10 @@ nav > ul {
   text-decoration: none;
 }
 
+@media screen and (max-width:420px;){
+  #main-navigation{margin:0px;}
+}
+
 .margin0{
   margin:0;
   margin-bottom: 0;
@@ -512,7 +516,7 @@ footer .container .row:nth-child(2){
     #Industries .landing-blocks:nth-child(3) > div:first-child {
     margin-left: 0vw;
   }
-    
+
 
     .branding-container img{
       width: 200px;
@@ -604,6 +608,7 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
 
     #Support{
       padding-top: 6vh;
+    }
 }
 
 /*style for the "header" of the page"*/
