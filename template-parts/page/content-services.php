@@ -3,8 +3,8 @@
 </div>
 <div class="container-fluid service-div">
     <div class="row">
-        <div class="col-md-6 space-left text-center" id="systemInegration">
-            <h3 class="service-h3">system integration</h3>
+        <div class="col-md-6 space-left text-center" id="systemIntegration">
+            <h3 class="service-h3 padding10vh">system integration</h3>
             <p class="text-muted service-p">
             The complexity of running on multiple systems and technicalities that surrounds the implementation across various departments
             and organizations have made system integration a critical part of information technology and application
@@ -19,7 +19,6 @@
     </div>
 </div>
 <div class="container-fluid service-div">
-    <div class="row line">
     <img class="service-img col-md-6 text-muted " src="<?php echo get_template_directory_uri(). '/assets/images/services/helpdesk.jpeg'; ?>" />
         <div class="col-md-6 space-right text-center" id="helpSupport">
             <h3 class="service-h3">help desk and support</h3>
@@ -64,7 +63,7 @@
             </p>
         </div>
         <div class="col-md-6 col-sm-6  text-center space-right">
-            <img class="icon-img" src="<?php echo get_template_directory_uri(). '/assets/images/icons/defoult.png'; ?>" />
+            <img class="icon-img" src="<?php echo get_template_directory_uri(). '/assets/images/icons/lock-2430207_640.png'; ?>" />
             <h3 class="double serivice-h3">identity and access management</h3>
             <p class="text-muted service-p">
                 Our identity and access management team provides your company with the best of breed technology that prevents unauthorized
@@ -76,7 +75,6 @@
     </div>
 </div>
 <div class="container-fluid service-div text-center">
-    <div class="row line">
         <img class="training-img col-md-6 text-muted" src="<?php echo get_template_directory_uri(). '/assets/images/services/training.jpg'; ?>" />
         <div class="col-md-6 space-right text-center" id="training">
             <h3 class="service-h3">training</h3>

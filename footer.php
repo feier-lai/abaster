@@ -28,10 +28,10 @@
 				  		Phone: 416.820.1636
 				  	</div>
 				  	<div class="col-md-3">
-				  		privacy policy
+				  		<!--privacy policy-->
 				  	</div>
 				  	<div class="col-md-3">
-				  		careers
+				  		<!--careers-->
 				  	</div>
 				  </div>
 				    <div class="row" id="CopyrightRow">

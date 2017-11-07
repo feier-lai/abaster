@@ -104,11 +104,11 @@ nav > ul {
 }
 
 .padding8vh{
-  padding: 8vh auto;
+  padding: 8vh auto !important;
 }
 
 .padding10vh{
-  padding: 10vh auto;
+  padding: 10vh auto !important;
 }
 
 .padding30vh{
@@ -179,9 +179,20 @@ footer .container .row:nth-child(2){
   position: absolute;
   z-index:2;
   top: 35vh;
-  left: 20vw;
+  left: 10vw;
   max-width: 65vw;
 }
+
+#slider-three .slider-internal-content {
+  background-color: rgba(255,255,255,0.6);
+  padding: 2em;
+}
+
+#slider-one .slider-internal-content {
+  background-color: rgba(26,97,145,0.3);
+  padding: 2em;
+}
+
 
 .overlay-white{
   background-color: #fff;
@@ -332,7 +343,7 @@ footer .container .row:nth-child(2){
   width:100%;
   padding: 0.5em;
   height: 50px;
-  z-index:2;
+  z-index:5;
 }
 
 .page-navigation > ul{
@@ -401,11 +412,24 @@ footer .container .row:nth-child(2){
 .industries-tile-text{
   font-size: 1em;
   margin-top:3.5em;
-  padding: 1.5em;
   color:#222;
   text-align: justify;
   padding-left: 6vw;
+}
+
+.industries-tile-text-left{
+  font-size: 1em;
+  margin-top:3.5em;
+  color:#222;
+  text-align: justify;
+  padding-left: 0;
   padding-right: 6vw;
+  padding-top: 6vh;
+}
+
+#MANUFACTURING .industries-tile-text-left{
+  padding-top: 0;
+  margin-top: 2em;
 }
 
 .padding0{
@@ -439,7 +463,20 @@ footer .container .row:nth-child(2){
 
 
     .service-h3{
-      margin-top: 20vh;
+      margin-top: 0vh;
+    }
+
+    #businManagement h3{
+      margin-top: 15vh;
+    }
+
+    #systemIntegration h3{
+      margin-top: 15vh;
+    }
+
+    .courses{
+      margin-top: 10vh;
+      margin-bottom: 5vh;
     }
 
 
@@ -542,19 +579,27 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
 
 /*style for the "header" of the page"*/
 .jumbotron{
-    background-image: url("assets/images/jumbotron.jpeg");
+    background-image: url("assets/images/pexels-photo-618079.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 20%;
+    background-position: 90% 50%;
     margin-bottom: 0;
+    position: relative;
 }
 
 .jumbotron > h1{
     text-transform: uppercase;
-    position: relative;
-    left: 2%;
+    position: absolute;
+    left: 3%;
+    top: 55%;
+    width:65%;
+    font-size: 3.2em;
+    background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
+    background: -webkit-linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
+    background: -moz-linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
+    background: -o-linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
+    padding: 0.3em;
     color: #161B3F;
-    margin-bottom: 8vh;
 }
 
 /*style for the body*/
@@ -589,7 +634,7 @@ h3{
 }
 
 .icon-img{
-  max-height: 20vh;
+  height: 20vh;
 }
 
 .double{
@@ -636,7 +681,7 @@ li{
 
 .blue{
     background-color: #1A6191;
-      padding: 3vh 0;
+      padding: 2vh 0;
 }
 
 .white{
@@ -648,6 +693,15 @@ li{
     height: 150px;
     margin-bottom: 5vh;
 }
+
+#who-we-are .content-padding{
+  padding: 10vh 5vh 10vh 5vh;
+}
+
+#who-we-are p{
+  margin-bottom: 3vh;
+}
+
 
 /*careers*/
 

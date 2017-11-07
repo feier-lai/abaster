@@ -61,7 +61,7 @@
         <div class="col-md-12 col-sm-12 picture-container-smallscreens" alt="" style="background-image:url('<?php echo $repeater_image; ?>');"></div>
       </div>
 			<div class="row">
-				<div class="col-md-7 col-sm-7 content-padding industries-tile-text">
+				<div class="col-md-7 col-sm-7 content-padding industries-tile-text-left">
           <h2 class="industries-heading"><?php echo $repeater_header; ?></h2>
           <?php echo $repeater_text; ?>
 				</div>

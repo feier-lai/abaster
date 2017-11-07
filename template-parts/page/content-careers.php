@@ -21,7 +21,7 @@
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </div>
             </div>
-            <button class="btn col-md-1 apply"><a target="_blanck" href="https://www.playcodemonkey.com">Apply</a></button>
+            <button class="btn col-md-1 apply"><a target="_blanck" href="mailto:info@abasterconsulting.com">Apply</a></button>
         </div>
     </div>
     <div class="container-fluid job">
@@ -33,7 +33,7 @@
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </div>
             </div>
-            <button class="btn col-md-1 apply"><a target="_blanck" href="https://www.playcodemonkey.com">Apply</a></button>
+            <button class="btn col-md-1 apply"><a target="_blanck" href="mailto:info@abasterconsulting.com">Apply</a></button>
         </div>
     </div>
     <div class="container-fluid job">
@@ -45,7 +45,7 @@
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </div>
             </div>
-            <button class="btn col-md-1 apply"><a target="_blanck" href="https://www.playcodemonkey.com">Apply</a></button>
+            <button class="btn col-md-1 apply"><a target="_blanck" href="mailto:info@abasterconsulting.com">Apply</a></button>
         </div>
     </div>
     <div class="container-fluid job">
@@ -57,7 +57,7 @@
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </div>
             </div>
-            <button class="btn col-md-1 apply"><a target="_blanck" href="https://www.playcodemonkey.com">Apply</a></button>
+            <button class="btn col-md-1 apply"><a target="_blanck" href="mailto:info@abasterconsulting.com">Apply</a></button>
         </div>
     </div>
     <div class="container-fluid job">
@@ -69,7 +69,7 @@
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </div>
             </div>
-            <button class="btn col-md-1 apply"><a target="_blanck" href="https://www.playcodemonkey.com">Apply</a></button>
+            <button class="btn col-md-1 apply"><a target="_blanck" href="mailto:info@abasterconsulting.com">Apply</a></button>
         </div>
     </div>
     <div class="container-fluid job">
@@ -81,7 +81,7 @@
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </div>
             </div>
-            <button class="btn col-md-1 apply"><a target="_blanck" href="https://www.playcodemonkey.com">Apply</a></button>
+            <button class="btn col-md-1 apply"><a target="_blanck" href="mailto:info@abasterconsulting.com">Apply</a></button>
         </div>
     </div>
     <div class="container-fluid text-center blue">
