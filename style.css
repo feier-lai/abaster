@@ -89,6 +89,11 @@ nav > ul {
   text-decoration: none;
 }
 
+@media screen and (max-width:420px;){
+  #main-navigation{margin:0px
+    ;}
+}
+
 .margin0{
   margin:0;
   margin-bottom: 0;
@@ -123,7 +128,7 @@ footer{
   padding: 5px;
 }
 
-footer .container .row:first-child{
+footer .container {
   margin-top: 3vh;
 }
 
@@ -440,6 +445,174 @@ footer .container .row:nth-child(2){
 }
 
 
+<<<<<<< HEAD
+/*media query for screens over 769px*/
+
+@media screen and (min-width: 769px){
+
+    .service-p{
+        padding: 0 5% 0 2%;
+    }
+
+    .service-div {
+        display : flex;
+        align-items : center;
+    }
+
+    .service-ul{
+        width: 20%;
+        left: 3%;
+        top: 5vh;
+    }
+
+
+    .service-h3{
+      margin-top: 0vh;
+    }
+
+    #businManagement h3{
+      margin-top: 15vh;
+    }
+
+    #systemIntegration h3{
+      margin-top: 15vh;
+    }
+
+    .courses{
+      margin-top: 10vh;
+      margin-bottom: 5vh;
+    }
+
+
+    .jumbotron > h1{
+      top: 27vh;
+      font-size: 3.5em;
+    }
+
+    .jumbotron{
+      height: 55vh;
+    }
+
+    .blue > img{
+      padding-top: 3vh;
+    }
+
+    .SupportContainer{
+      margin-left: 15vw;
+    }
+
+    #Support{
+      padding-top: 20vh;
+    }
+}
+
+@media screen and (max-width: 846px){
+
+    .service-ul{
+        margin-left: 5%;
+        margin-top: 2%;
+        width: 28%;
+    }
+
+    #Industries .landing-blocks:nth-child(3) > div:first-child {
+    margin-left: 0vw;
+  }
+
+
+    .branding-container img{
+      width: 200px;
+    }
+
+    .header-container {
+    height: 30vh;
+    }
+
+}
+
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 1.5) {
+
+  .service-h3{
+    margin-top: 3vh;
+  }
+
+  .blue > img{
+    margin-top: 6vh;
+  }
+  .training-img{
+    margin-top: 3vh;
+  }
+  .jumbotron > h1 {
+    top:15vh;
+    font-size: 3em;
+  }
+
+  .jumbotron{
+    height: 27vh;
+  }
+
+}
+  /*media query for screens under 769px*/
+@media screen and (max-width: 768px){
+
+    .service-img{
+        margin-bottom: 5vh;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        max-height: 50vh;
+        max-width: 100%;
+    }
+
+    .service-p{
+      /*  left: 50%;
+        transform: translate(-50%);*/
+        padding: 0 3%;
+    }
+
+    .service-ul{
+        left: 60%;
+        transform: translate(-60%);
+        margin-top: 2%;
+        width: 50%;
+    }
+
+    .service-h3{
+      margin-top: 3vh;
+    }
+
+    .blue > img{
+      max-height: 50vh;
+      max-width: 100%;
+    }
+
+    .jumbotron > h1{
+      top: 12vh;
+    }
+
+    .training-img{
+      max-height: 55vh;
+      max-width: 100%;
+      padding-top: 4%;
+    }
+
+    .jumbotron{
+      height: 30vh;
+    }
+
+    .SupportContainer{
+      margin: auto;
+    }
+
+    #Support{
+      padding-top: 6vh;
+    }
+}
+
+
 
 /*style for the "header" of the page"*/
 .jumbotron{
@@ -695,6 +868,16 @@ h4:hover{
     }
 }
 
+/*iphone5*/
+@media screen and (max-width: 330px){
+  .row:first-child{
+    margin-top: 0vh;    
+  }
+
+  footer {
+    height: 55vh;
+  }
+}
 @media screen and (max-width: 846px){
 
     p{
@@ -710,7 +893,7 @@ h4:hover{
     #Industries .landing-blocks:nth-child(3) > div:first-child {
     margin-left: 0vw;
     }
-    
+
     .landing-blocks{
       padding: 0em;
     }

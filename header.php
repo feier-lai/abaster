@@ -25,7 +25,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	
+
 	<header id="masthead" class="site-header" role="banner">
 
 
@@ -56,7 +56,7 @@
 					</nav>
 				</div>
 			</div>
-			
+
 		</div>
 
 		<?php //get_template_part( 'template-parts/header/header', 'image' ); ?>
