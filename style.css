@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h1{
-  font-size: 3.5em;
+
   font-weight: bolder;
 }
 
@@ -294,7 +294,6 @@ footer .container .row:nth-child(2){
 }
 .SupportContainer{
   width:70vw;
-  margin-left: 15vw;
 }
 #LearnMore{
   margin-top: 3vh;
@@ -482,6 +481,7 @@ footer .container .row:nth-child(2){
 
     .jumbotron > h1{
       top: 27vh;
+      font-size: 3.5em;
     }
 
     .jumbotron{
@@ -490,6 +490,14 @@ footer .container .row:nth-child(2){
 
     .blue > img{
       padding-top: 3vh;
+    }
+
+    .SupportContainer{
+      margin-left: 15vw;
+    }
+
+    #Support{
+      padding-top: 20vh;
     }
 }
 
@@ -534,6 +542,7 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
   }
   .jumbotron > h1 {
     top:15vh;
+    font-size: 3em;
   }
 
   .jumbotron{
@@ -588,6 +597,13 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
     .jumbotron{
       height: 30vh;
     }
+
+    .SupportContainer{
+      margin: auto;
+    }
+
+    #Support{
+      padding-top: 6vh;
 }
 
 /*style for the "header" of the page"*/
