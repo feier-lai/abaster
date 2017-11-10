@@ -9,13 +9,13 @@ get_header(); ?>
 
   <div class="row landing-blocks padding0">
     <div class="owl-carousel" id="top-slider">
-      <div id="slider-one" class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/pexels-photo-258160.jpeg' ?>');">
+      <div id="slider-one" class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/pexels-photo-258160-web.jpg'?>');">
         <div class="slider-internal-content white">
           <h1>System Integration</h1>
           <h2 class="header-subline">Abaster's team prides itself as a first class system integrator of ERP Applications. We understand the significance of well integrated system to the Business of our clients.</h2>
         </div>
       </div>
-      <div id="slider-two" class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/people-woman-coffee-meeting.jpg' ?>');">
+      <div id="slider-two" class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/people-woman-coffee-meeting-web.jpg'?>');">
         <div class="overlay"></div>
         <div class="slider-internal-content white">
           <h1>Training</h1>
@@ -24,7 +24,7 @@ get_header(); ?>
           </h2>
         </div>
       </div>
-      <div id="slider-three" class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/pexels-man-laptop.jpg' ?>');">
+      <div id="slider-three" class="slider-content" style="background-image:url('<?php echo get_template_directory_uri(). '/assets/images/pexels-man-laptop-web.jpg'?>');">
         <div class="slider-internal-content darkblue-text">
           <h1>Help desk and Support</h1>
           <h2 class="header-subline">Our support system is characterized with excellent customer service, brilliant performance and on-time service delivery. </h2>

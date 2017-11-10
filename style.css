@@ -821,8 +821,6 @@ h4:hover{
         top: 5vh;
     }
 
-
-
     .service-h3{
       margin-top: 0vh;
     }
@@ -865,19 +863,17 @@ h4:hover{
     #Support{
       padding-top: 20vh;
     }
+
+    #menu-main-menu{
+      margin: 0;
+    }
 }
 
-/*iphone5*/
-@media screen and (max-width: 330px){
-  .row:first-child{
-    margin-top: 0vh;    
-  }
-
-  footer {
-    height: 55vh;
-  }
-}
 @media screen and (max-width: 846px){
+
+    p{
+      font-size: 0.8em;
+    }
 
     .service-ul{
         margin-left: 5%;
@@ -898,15 +894,29 @@ h4:hover{
     }
 
     .branding-container img{
-      width: 200px;
+      width: 360px;
     }
 
     .header-container {
-    height: 30vh;
+      height: 30vh;
+    }
+
+    #main-navigation ul{
+      margin-top: 1em;
+    }
+
+    #main-navigation > ul > li{
+      display: block;
+      width: 100%;
+      text-align: center;
     }
 
     .slider-internal-content h1{
       font-size: 2em;
+    }
+
+    header{
+      height: 40vh;
     }
 
     .header-subline{
@@ -927,8 +937,9 @@ h4:hover{
     }
 
     .slider-internal-content{
-      left: 13vw;
+      left: 8vw;
     }
+
 
     .industries-tile-text{
       padding-right: 6vw;
@@ -949,6 +960,31 @@ h4:hover{
     footer{
       padding: 1em;
     }
+
+
+}
+
+/*iphone5*/
+@media screen and (max-width: 330px){
+  .row:first-child{
+    margin-top: 0vh;    
+  }
+
+  footer {
+    height: 55vh;
+  }
+
+  header{
+      height: 50vh;
+    }
+
+  .header-container{
+    padding-top: 9vh;
+  }
+
+  .branding-container img{
+      width: 280px;
+  }
 
 }
 
