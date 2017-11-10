@@ -737,7 +737,6 @@ li{
   margin-bottom: 3vh;
 }
 
-
 /*careers*/
 
 .dark{
@@ -745,7 +744,7 @@ li{
 }
 
 button{
-    background-color: #161B3F;
+    background-color: #161B3F; 
 }
 
 button > a {
