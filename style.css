@@ -90,8 +90,7 @@ nav > ul {
 }
 
 @media screen and (max-width:420px;){
-  #main-navigation{margin:0px
-    ;}
+  #main-navigation { margin: 0px;}
 }
 
 .margin0{
@@ -968,7 +967,7 @@ h4:hover{
 /*iphone5*/
 @media screen and (max-width: 330px){
   .row:first-child{
-    margin-top: 0vh;    
+    margin-top: 0vh;
   }
 
   footer {

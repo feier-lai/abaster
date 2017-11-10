@@ -1,18 +1,59 @@
 <div class="jumbotron container-fluid ">
         <h1>careers</h1>
     </div>
+
+    <?php if( have_rows('career_top_section') ): ?>
+
+    	<?php while( have_rows('career_top_section') ): the_row();
+
+    		// vars
+    		$career_header = get_sub_field('career_heading');
+        $careers_content = get_sub_field('career_content');
+
+    		?>
     <div class="container-fluid text-center dark careers-cont about">
-        <h3 class="white">why abaster</h3>
-        <p class="white contentMargin">Join a world class team in delivering industry standard products and services. Every member of the team is crucial to the success of our mission. 
-        </p>
+        <h3 class="white"><?php echo "$career_header" ?></h3>
+        <p class="white contentMargin"><?php echo "$careers_content" ?></p>
     </div>
+  <?php endwhile; ?>
+
+<?php endif; ?>
+
     <div class="container-fluid text-center blue">
         <h3 class="white">available positions</h3>
     </div>
     <!--<div class="container text-center spontaneous">
         <p>None yet!</p>
     </div>-->
-    <div class="container-fluid job">
+    <?php if( have_rows('job_section_repeater') ): ?>
+
+      <?php while( have_rows('job_section_repeater') ): the_row();
+
+        // vars
+        $job_title_var = get_sub_field('job_title');
+        $job_description_var = get_sub_field('job_description');
+        $application_link_var = get_sub_field('application_link');
+        $job_title_id = str_replace(' ', '_', $job_title_var);
+
+        ?>
+        <div class="container-fluid job">
+            <div class="row">
+                <div class="career col-md-6">
+                    <h4 type="button" data-toggle="collapse" data-target="<?php  echo '#'. $job_title_id ?>"><?php echo "$job_title_var"?></h4>
+                    <div id="<?php echo $job_title_id ?>" class="collapse">
+                        <?php echo "$job_description_var"?>
+                    </div>
+                </div>
+                <button class="btn col-md-1 apply"><a target="_blanck" href="<?php echo $application_link_var?>">Apply</a></button>
+            </div>
+        </div>
+      <?php endwhile; ?>
+
+    <?php endif; ?>
+
+
+
+  <!--  <div class="container-fluid job">
         <div class="row">
             <div class="career col-md-6">
                 <h4 type="button" data-toggle="collapse" data-target="#description1">SAP IS Banking Consultants</h4>
@@ -83,11 +124,12 @@
             </div>
             <button class="btn col-md-1 apply"><a target="_blanck" href="mailto:info@abasterconsulting.com">Apply</a></button>
         </div>
-    </div>
+    </div>-->
+
     <div class="container-fluid text-center blue">
-        <h3 class="white">spontaneous application</h3>
+        <h3 class="white"><?php echo get_field(bottom_section_heading) ?></h3>
     </div>
     <div class="container text-center spontaneous">
-        <p>Interested in joining our team, but waiting for the right time or the right role? Send us your resume, your application will be taken into consideration when a job vacancy matches your profile.</p>
+        <p><?php echo get_field(bottom_section_content) ?></p>
         <button class="btn apply"><a target="_blanck" href="mailto:info@abasterconsulting.com">Apply</a></button>
     </div>
