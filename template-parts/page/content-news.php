@@ -25,10 +25,9 @@
 <div class="container-fluid careers-cont news-post">
         <div class="row">
             <div class="career col-md-12">
-                <h4 type="button" data-toggle="collapse" data-target="#description2">The State of Lagos, Nigeria will soon welcome Abaster Consultancy firm in delivery training to interested ERP Professional</h4>
+                <h4 type="button" data-toggle="collapse" data-target="#description2"><?php echo the_title(); ?></h4>
                 <div id="description2" class="collapse">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                       <?php echo the_excerpt();?>
                 </div>
             </div>
         </div>

@@ -8,7 +8,7 @@
 
     		// vars
     		$career_header = get_sub_field('career_heading');
-        $careers_content = get_sub_field('career_content');
+            $careers_content = get_sub_field('career_content',false,false);
 
     		?>
     <div class="container-fluid text-center dark careers-cont about">
@@ -44,7 +44,7 @@
                         <?php echo "$job_description_var"?>
                     </div>
                 </div>
-                <button class="btn col-md-1 apply"><a target="_blanck" href="<?php echo $application_link_var?>">Apply</a></button>
+                <a target="_blanck" href="<?php echo $application_link_var?>"><button class="btn col-md-1 apply">Apply</button></a>
             </div>
         </div>
       <?php endwhile; ?>
@@ -127,9 +127,9 @@
     </div>-->
 
     <div class="container-fluid text-center blue">
-        <h3 class="white"><?php echo get_field(bottom_section_heading) ?></h3>
+        <h3 class="white"><?php echo get_field('bottom_section_heading') ;?></h3>
     </div>
     <div class="container text-center spontaneous">
-        <p><?php echo get_field(bottom_section_content) ?></p>
-        <button class="btn apply"><a target="_blanck" href="mailto:info@abasterconsulting.com">Apply</a></button>
+        <p><?php echo get_field('bottom_section_content') ?></p>
+       <a target="_blanck" href="mailto:info@abasterconsulting.com"> <button class="btn apply">Apply</button></a>
     </div>

@@ -4,7 +4,7 @@
         <h1>industries</h1>
     </div>
 
-    <div class="section-nav blue">
+    <!--<div class="section-nav blue">
 		<nav class="page-navigation">
 			<ul>
 				<li><a href="#OIL AND GAS">OIL AND GAS</a></li>
@@ -16,7 +16,7 @@
 				<li><a href="#PUBLIC SERVICE">PUBLIC SERVICE</a></li>
 			</ul>
 		</nav>
-	</div>
+	</div>-->
 
 	<div id="industries-content">
 

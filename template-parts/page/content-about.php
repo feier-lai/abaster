@@ -14,12 +14,12 @@ if( have_rows('about_us_repeater') ):
 
         // display a sub field value
         $about_heading = get_sub_field('about_us_heading');
-        $about_content = get_sub_field('about_us_content');
+        $about_content = get_sub_field('about_us_content', false, false);
         $about_image = get_sub_field('about_us_image'); 
         $about_bgcolor = get_sub_field('about_us_bg_color'); 
         $h3class = "";
 
-        if( $about_bgcolor ){
+        if( $about_bgcolor != '' &&  $about_bgcolor != '#FFFFFF' ){
 
             $h3class = "white";
 
@@ -30,8 +30,8 @@ if( have_rows('about_us_repeater') ):
 
         <div class="container-fluid text-center text-muted about content-padding" style="background-color:<?php echo $about_bgcolor;?>">
         <h3 class="<?php echo $h3class;?>"><?php echo $about_heading; ?> </h3>
-        <img src="<?php echo $about_image;?>">
-        <p class="contentMargin">
+        <?php if ($about_image): ?><img src="<?php echo $about_image;?>"><?php endif;?>
+        <p class="contentMargin <?php echo $h3class;?>">
             <?php echo $about_content; ?>
         </p>
         </div>

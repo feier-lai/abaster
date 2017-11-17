@@ -211,12 +211,12 @@ footer .container .row:nth-child(2){
   max-width: 65vw;
 }
 
-#slider-three .slider-internal-content {
+#slider3 .slider-internal-content {
   background-color: rgba(255,255,255,0.6);
   padding: 2em;
 }
 
-#slider-one .slider-internal-content {
+#slider1 .slider-internal-content {
   background-color: rgba(26,97,145,0.3);
   padding: 2em;
 }
@@ -263,6 +263,11 @@ footer .container .row:nth-child(2){
 
 #WhatWeDo a, #WhatWeDo a:visited, #WhatWeDo a:hover, #WhatWeDo a:active{
   color: #FFF;
+  text-decoration: none;
+}
+
+#WhatWeDo .landing-blocks .col-md-4{
+  margin-bottom: 5vh;
 }
 
 #Industries{
@@ -301,13 +306,6 @@ footer .container .row:nth-child(2){
   text-decoration: none;
 }
 
-#oil-gas-overlay {
-    display: none;
-}
-
-#oil-gas-tile:hover + #oil-gas-overlay{
-    display: block;
-}
 
 #Support{
   /*background-image: url("/assets/images/businessImage.jpg");*/
@@ -825,7 +823,6 @@ h4:hover{
 }
 
 .job{
-    border-bottom: 0.1em solid #95989A;
     padding: 2vh 0 3vh 5%;
 }
 
@@ -960,7 +957,7 @@ h4:hover{
       width: 100%;
     }
 
-    #slider-two .slider-internal-content{
+    #slider2 .slider-internal-content{
       padding: 2em;
     }
 
