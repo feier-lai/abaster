@@ -30,10 +30,11 @@
     $repeater_text = get_sub_field('industries_content_text');
 		$repeater_image = get_sub_field('industries_content_image');
     $repeater_textdir = get_sub_field('industries_text_side');
+    $repeater_header_cleaned = str_replace(' ', '_', $repeater_header);
 
 		?>
   <?php if($repeater_textdir=='right'): ?>
-    <div class="container padding30vh" id="<?php echo $repeater_header;?>">
+    <div class="container padding30vh" id="<?php echo $repeater_header_cleaned;?>">
       <div class="row">
         <div class="col-md-12 col-sm-12 picture-container-smallscreens" alt="" style="background-image:url('<?php echo $repeater_image; ?>');"></div>
       </div>
@@ -56,7 +57,7 @@
 
 
 <?php if($repeater_textdir=='left'): ?>
-    <div class="container padding30vh" id="<?php echo $repeater_header;?>">
+    <div class="container padding30vh" id="<?php echo $repeater_header_cleaned;?>">
       <div class="row">
         <div class="col-md-12 col-sm-12 picture-container-smallscreens" alt="" style="background-image:url('<?php echo $repeater_image; ?>');"></div>
       </div>
