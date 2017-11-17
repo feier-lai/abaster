@@ -626,3 +626,17 @@ function wpdocs_custom_excerpt_length( $length ) {
     return 25;
 }
 add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+
+/* remove wordpress content box on pages */
+
+function remove_editor() {
+    if (isset($_GET['post'])) {
+        $id = $_GET['post'];
+        $template = get_post_meta($id, '_wp_page_template', true);
+
+       
+            remove_post_type_support( 'page', 'editor' );
+        
+    }
+}
+add_action('init', 'remove_editor');
