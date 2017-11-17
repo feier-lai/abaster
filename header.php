@@ -33,7 +33,8 @@
 			<div class="row header-content">
 				<div class="col-md-3 col-12">
 					<div class="branding-container">
-						<a href="<?php echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri(). '/assets/images/Abaster-Logo-white.svg' ?>"></a>
+						<!--<a href="<?php //echo get_site_url(); ?>"><img src="<?php //echo get_template_directory_uri(). '/assets/images/Abaster-Logo-white.svg' ?>"></a>-->
+						<?php the_custom_logo();?>
 					</div>
 				</div>
 				<div class="col-md-9 col-12 float-right">

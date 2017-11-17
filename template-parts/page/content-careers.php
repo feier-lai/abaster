@@ -9,7 +9,7 @@
     <div class="container-fluid text-center blue">
         <h3 class="white">available positions</h3>
     </div>
-    <!--<div class="container text-center spontaneous">
+    <!--<div class="container text-center spontaneous"> 
         <p>None yet!</p>
     </div>-->
     <div class="container-fluid job">

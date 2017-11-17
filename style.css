@@ -59,15 +59,38 @@ nav > ul {
 
 .header-container{
   height: 15vh;
-  padding-top:5vh;
+}
+
+.header-content{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.header-content > div{
+  display: inline-block;
+  height: 100%;
+}
+
+.branding-container{
+  margin-left: 5vw;
+  display: inline-block;
+  height: 100%;
+}
+
+.branding-container img{
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 .header-subline{
   font-size: 1.5em;
 }
 
-.branding-container{
-  margin-left: 5vw;
+#menu-main-menu{
+  padding-top: 5vh;
 }
 
 #main-navigation > ul{
@@ -90,9 +113,9 @@ nav > ul {
 }
 
 @media screen and (max-width:420px;){
-  #main-navigation{margin:0px
-    ;}
-}
+  #main-navigation{
+    margin:0px;}
+  }
 
 .margin0{
   margin:0;
@@ -445,7 +468,6 @@ footer .container .row:nth-child(2){
 }
 
 
-<<<<<<< HEAD
 /*media query for screens over 769px*/
 
 @media screen and (min-width: 769px){
@@ -730,11 +752,17 @@ li{
 }
 
 #who-we-are .content-padding{
-  padding: 10vh 5vh 10vh 5vh;
+  padding: 10vh 8vh 10vh 8vh;
 }
 
 #who-we-are p{
   margin-bottom: 3vh;
+}
+
+#who-we-are .about img{
+  width: 30vw;
+  height: 30vh;
+  object-fit: contain;
 }
 
 
@@ -978,10 +1006,6 @@ h4:hover{
   header{
       height: 50vh;
     }
-
-  .header-container{
-    padding-top: 9vh;
-  }
 
   .branding-container img{
       width: 280px;

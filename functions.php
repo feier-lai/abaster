@@ -602,6 +602,14 @@ require get_parent_theme_file_path( '/inc/customizer.php' );
 require get_parent_theme_file_path( '/inc/icon-functions.php' );
 
 
+/* ACF options page */
+if( function_exists('acf_add_options_page') ) {
+    
+    acf_add_options_page();
+    
+}
+
+
 /*modify read more text link in post previews */
 function modify_read_more_link() {
     return  '...' . '<a class="more-link" href="' . get_permalink() . '">Read More</a>';
