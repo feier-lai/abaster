@@ -24,8 +24,8 @@
 				    </div>
 				  <div class="row">
 				  	<div class="col-md-6">
-				  		Email: <a href="mailto:info@abasterconsulting.com">info@abasterconsulting.com</a><br>
-				  		Phone: 416.820.1636
+				  		Email: <a href="mailto:<?php echo the_field('footer_email', 'option');?>"><?php echo the_field('footer_email', 'option');?></a><br>
+				  		Phone: <?php echo the_field('footer_phone', 'option');?>
 				  	</div>
 				  	<div class="col-md-3">
 				  		<!--privacy policy-->
