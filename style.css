@@ -113,9 +113,10 @@ nav > ul {
 }
 
 @media screen and (max-width:420px;){
-  #main-navigation{
+
+#main-navigation{
     margin:0px;}
-  }
+}
 
 .margin0{
   margin:0;
@@ -487,7 +488,6 @@ footer .container .row:nth-child(2){
         top: 5vh;
     }
 
-
     .service-h3{
       margin-top: 0vh;
     }
@@ -504,7 +504,6 @@ footer .container .row:nth-child(2){
       margin-top: 10vh;
       margin-bottom: 5vh;
     }
-
 
     .jumbotron > h1{
       top: 27vh;
@@ -759,12 +758,12 @@ li{
   margin-bottom: 3vh;
 }
 
+
 #who-we-are .about img{
   width: 30vw;
   height: 30vh;
   object-fit: contain;
 }
-
 
 /*careers*/
 
@@ -773,7 +772,7 @@ li{
 }
 
 button{
-    background-color: #161B3F;
+    background-color: #161B3F; 
 }
 
 button > a {
@@ -996,7 +995,7 @@ h4:hover{
 /*iphone5*/
 @media screen and (max-width: 330px){
   .row:first-child{
-    margin-top: 0vh;    
+    margin-top: 0vh;
   }
 
   footer {
