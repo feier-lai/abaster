@@ -29,7 +29,7 @@
 	<header id="masthead" class="site-header" role="banner">
 
 
-		<div class="header-container">
+		<div class="header-container container-fluid">
 			<div class="row header-content">
 				<div class="col-md-3 col-12">
 					<div class="branding-container">
